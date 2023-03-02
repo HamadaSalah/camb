@@ -1,0 +1,108 @@
+.homeslider p {
+    font-size: 21px;
+    font-family: 'Open Sans', sans-serif ;
+}
+.slick-next, .slick-prev {
+    display: none!important;
+}
+.events span {
+    font-family: 'Open Sans';
+}
+.white_bg h6 {
+    font-size: 16px;
+    color: #bb2d3b;
+    font-weight: 600;
+    margin-bottom: 0;
+    line-height: 22px;
+}
+.card-title {
+    text-transform: uppercase;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.historydiv p, .missiondiv p, .visiondiv p{
+    font-family: 'Open Sans';
+    font-weight: 500;
+    font-size: 18px;
+}
+.rechp p {
+    font-family: 'Open Sans';
+    font-weight: 500;
+    font-size: 18px;
+}
+.addresses a {
+    font-weight: 500;
+}
+.rehus {
+    font-family: 'Open Sans';
+}
+.fc .fc-daygrid-day-number {
+    padding: 4px;
+    position: relative;
+    z-index: 4;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+    font-size: 22px!important;
+}
+.fc .fc-daygrid-day-bg .fc-bg-event {
+    opacity: 1;
+}
+.fc .fc-daygrid-day-top {
+    /* display: flex;
+    flex-direction: row-reverse;
+    height: 100%;
+    /* margin-top: 80px; */
+     display: block;
+    height: 100%;
+    position: absolute;
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+}
+.calendar {
+    width: 50%;
+    margin: auto;
+}
+.fc td, .fc th {
+    border-style: none !important;
+  }
+  
+footer .fa {
+    font-size: 22px!important;
+    color: #FFF;
+}
+.pb-2 {
+    font-family: 'Open Sans';
+}
+.fc .fc-scrollgrid-liquid {
+    border: none!important;
+}
+.fc .fc-daygrid-day-bg .fc-bg-event {
+    z-index: 2;
+    border-radius: 15px;
+    padding: 15px;
+    border: 5px solid #fff;
+}
+.fc .fc-col-header-cell-cushion {
+    color: #bb2d3b;
+    font-weight: bold;
+    font-family: 'Open Sans';
+}
+
+
+
+
+
+@media screen and (max-width: 798px) {
+    .misimg img {
+        height: unset!important;
+    }
+    .calendar {
+        width: 100%;
+        margin: auto;
+    }
+}
+    
