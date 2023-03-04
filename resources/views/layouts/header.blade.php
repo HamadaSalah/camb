@@ -1,7 +1,7 @@
 <nav class="navbar position-relative py-3 px-1 px-md-4 px-lg-4 px-xl-4 shadow z-3 white_bg">
     <div class="container-fluid">
         <a class="navbar-brand" href="{{route('index')}}">
-            <img class="img-fluid" width="170" src="assets/images/Logo-Rad.png" alt="">
+            <img class="img-fluid" width="170" src="{{asset('assets/images/Logo-Rad.png')}}" alt="">
         </a>
         <ul
             class="d-none d-lg-flex d-xl-flex d-xxl-flex w-fit me-3 position-relative align-items-center justify-content-end text-uppercase Open_Sans_font fw-semibold">

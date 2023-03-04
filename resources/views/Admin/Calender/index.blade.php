@@ -1,12 +1,12 @@
 @extends('Admin.master')
 @section('content')
-<h2 style="padding-bottom: 35px;float: left;margin-top: 0">Home Slider</h2>
-<a href="{{route('admin.slider.create')}}">  
-    <button class="btn btn-primary" style="float: right"><i class="fa fa-plus"> </i>  New Slider</button>
+<h2 style="padding-bottom: 35px;float: left;margin-top: 0">Home Calender</h2>
+<a href="{{route('admin.calender.create')}}">  
+    <button class="btn btn-primary" style="float: right"><i class="fa fa-plus"> </i>  New Calender</button>
 </a>
 <div class="clearfix"></div>
 <div class="clear"></div>
-    @if ($sliders->count() > 0)
+    @if ($calenders->count() > 0)
     <div class="table-responsive">
         <table class="table user-table no-wrap" id="myDTable">
             <thead>
@@ -21,16 +21,16 @@
             <tbody>
                 @foreach ($calenders as $calender)
                 <tr>
-                    <td></td>
+                    <td>{{$calender->loop+1}}</td>
+                    <td>{{$calender->start}}</td>
+                    <td>{{$calender->end}}</td>
+                    <td>{{$calender->category}}</td>
                     <td>
                         <form style="display: inline;" action="{{route('admin.calender.destroy', $calender->id)}}" method="post">
                             @csrf
                             @method('DELETE')
                             <button class="btn btn-danger" type="submit"><i class="fa fa-trash"></i> Delete</button>
                         </form>
-                        <a href="{{Route('admin.calender.edit', $calender->id)}} ">
-                            <button class="btn btn-primary"><i class="fa fa-pencil-square-o"></i> Edit</button>
-                        </a>
                     </td>
 
                 </tr>

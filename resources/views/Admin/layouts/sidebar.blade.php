@@ -12,6 +12,18 @@
                             <p>Slider</p>
                         </a>
                     </li>
+                    <li class="{{ Request::segment(2) == 'events' ? 'active' : null }}">
+                        <a class="nav-link" href="{{route('admin.events.index')}}">
+                            <i class="nc-icon nc-align-center"></i>
+                            <p>Events</p>
+                        </a>
+                    </li>
+                    <li class="{{ Request::segment(2) == 'calender' ? 'active' : null }}">
+                        <a class="nav-link" href="{{route('admin.calender.index')}}">
+                            <i class="nc-icon nc-align-center"></i>
+                            <p>Calender</p>
+                        </a>
+                    </li>
  
  
                     {{-- <li class="{{ Request::segment(2) == 'News' ? 'active' : null }} dropparent">

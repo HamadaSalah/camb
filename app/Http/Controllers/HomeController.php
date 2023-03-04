@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\CalenderEvent;
 use Illuminate\Http\Request;
 use Illuminate\View\View;
 
@@ -24,7 +25,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $school_calender = CalenderEvent::select('start', 'end', 'display', 'color')->get();
+        return view('home', compact('school_calender'));
     }
     public function welcome() 
     {   return view('welcome');

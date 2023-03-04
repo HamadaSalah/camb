@@ -165,14 +165,16 @@
         </div>
     </div>
 </div>
-
-
-<div class="calendar min-vh-100">
+ 
+ <div class="calendar min-vh-100">
     <div class="container">
         <div class="row">
             <div class="col-12">
+                 
+                                     
                 <div class="vanilla-calendar">
                     <div id='calendar' class="mt-5"></div>
+                    <img src="{{asset('assets/images/cal_tt.png')}}" class="img-response" alt="">
                 </div>
             </div>
         </div>
@@ -181,29 +183,15 @@
 
 
 
+{{-- @dd($school_calender) --}}
 <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.4/index.global.min.js'></script>
 <script>
-
   document.addEventListener('DOMContentLoaded', function() {
     var calendarEl = document.getElementById('calendar');
     var calendar = new FullCalendar.Calendar(calendarEl, {
       initialView: 'dayGridMonth',
       themeSystem: 'bootstrap',
-      events: [
-        {  
-            start: '2023-02-01', 
-            end: '2023-02-01', 
-            display: 'background',
-            color: '#ffea00',
-        },
-        {  
-            start: '2023-02-02', 
-            end: '2023-02-02', 
-            display: 'background',
-            color: '#ffea00',
-        }
-
-    ]
+      events: <?php echo $school_calender?>
 
      });
     calendar.render();

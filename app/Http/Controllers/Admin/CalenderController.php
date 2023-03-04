@@ -26,7 +26,7 @@ class CalenderController extends Controller
      */
     public function create()
     {
-        //
+        return view('Admin.Calender.create');
     }
 
     /**
@@ -37,7 +37,34 @@ class CalenderController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'start' => 'required',
+            'category' => 'required'
+        ]);  
+        $color = '' ; 
+        if($request->type == 'Assessment') {
+            $color = '#a337d4';
+        }
+        else if($request->type == 'Holiday') {
+            $color = '#f22221';
+        }
+        else if($request->type == 'Event') {
+            $color = '#f2711e';
+        }
+        else if($request->type == 'Meeting') {
+            $color = '#2187da';
+        }
+        else if($request->type == 'Trips') {
+            $color = '#24c396';
+        }
+        CalenderEvent::create([
+            'start' => $request->start,
+            'end' => $request->start,
+            'display' => 'background',
+            'color' => $color,
+            'category' => $request->category,
+        ]);
+        return redirect()->route('admin.calender.index');
     }
 
     /**
@@ -82,6 +109,9 @@ class CalenderController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $cal = CalenderEvent::findOrFail($id);
+        $cal->delete();
+        return redirect()->back()->with('success', 'deleted successfully');
+
     }
 }

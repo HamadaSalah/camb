@@ -20,11 +20,11 @@
             <div class="position-relative _overlay rounded-3 overflow-hidden">
                 <div class="_link-border rounded-3 py-2">
                     <div class="text-start text-white h-100 d-flex flex-column justify-content-center mx-3">
-                        <a class="mb-1" href="facilities-library.html">
-                            <h2 class="text-white fw-bold">Library</h2>
+                        <a class="mb-1" href="{{route('getFacilities', 1)}}">
+                            <h2 class="text-white fw-bold">MUSIC</h2>
                         </a>
                         <p class="m-0 d-none Open_Sans_font fs-7 lh-lg">
-                            Library of about 25,000 books in both
+                            MUSIC of about 25,000 books in both
                             English and Arabic, and access to EBSCO
                             accounts for all students
                         </p>
@@ -37,11 +37,11 @@
             <div class="position-relative _overlay rounded-3 overflow-hidden">
                 <div class="_link-border rounded-3 py-2">
                     <div class="text-start text-white h-100 d-flex flex-column justify-content-center mx-3">
-                        <a class="mb-1" href="facilities-library.html">
-                            <h2 class="text-white fw-bold">Library</h2>
+                        <a class="mb-1" href="{{route('getFacilities', 1)}}">
+                            <h2 class="text-white fw-bold">PHOTOGRAPHY</h2>
                         </a>
                         <p class="m-0 d-none Open_Sans_font fs-7 lh-lg">
-                            Library of about 25,000 books in both
+                            PHOTOGRAPHY of about 25,000 books in both
                             English and Arabic, and access to EBSCO
                             accounts for all students
                         </p>
@@ -54,11 +54,11 @@
             <div class="position-relative _overlay rounded-3 overflow-hidden">
                 <div class="_link-border rounded-3 py-2">
                     <div class="text-start text-white h-100 d-flex flex-column justify-content-center mx-3">
-                        <a class="mb-1" href="facilities-library.html">
-                            <h2 class="text-white fw-bold">Library</h2>
+                        <a class="mb-1" href="{{route('getFacilities', 1)}}">
+                            <h2 class="text-white fw-bold">MUSIC</h2>
                         </a>
                         <p class="m-0 d-none Open_Sans_font fs-7 lh-lg">
-                            Library of about 25,000 books in both
+                            MUSIC of about 25,000 books in both
                             English and Arabic, and access to EBSCO
                             accounts for all students
                         </p>
@@ -68,14 +68,15 @@
                     <img class="img-fluid" src="assets/images/Website pix/Picture 400.jpg" alt="Photo">
                 </div>
             </div>
+
             <div class="position-relative _overlay rounded-3 overflow-hidden">
                 <div class="_link-border rounded-3 py-2">
                     <div class="text-start text-white h-100 d-flex flex-column justify-content-center mx-3">
-                        <a class="mb-1" href="facilities-library.html">
-                            <h2 class="text-white fw-bold">Library</h2>
+                        <a class="mb-1" href="{{route('getFacilities', 1)}}">
+                            <h2 class="text-white fw-bold">THEATRE</h2>
                         </a>
                         <p class="m-0 d-none Open_Sans_font fs-7 lh-lg">
-                            Library of about 25,000 books in both
+                            THEATRE of about 25,000 books in both
                             English and Arabic, and access to EBSCO
                             accounts for all students
                         </p>
@@ -85,41 +86,7 @@
                     <img class="img-fluid" src="assets/images/Website pix/Picture 400.jpg" alt="Photo">
                 </div>
             </div>
-            <div class="position-relative _overlay rounded-3 overflow-hidden">
-                <div class="_link-border rounded-3 py-2">
-                    <div class="text-start text-white h-100 d-flex flex-column justify-content-center mx-3">
-                        <a class="mb-1" href="facilities-library.html">
-                            <h2 class="text-white fw-bold">Library</h2>
-                        </a>
-                        <p class="m-0 d-none Open_Sans_font fs-7 lh-lg">
-                            Library of about 25,000 books in both
-                            English and Arabic, and access to EBSCO
-                            accounts for all students
-                        </p>
-                    </div>
-                </div>
-                <div class="">
-                    <img class="img-fluid" src="assets/images/Website pix/5Q7C7656.jpg" alt="Photo">
-                </div>
-            </div>
-            <div class="position-relative _overlay rounded-3 overflow-hidden">
-                <div class="_link-border rounded-3 py-2">
-                    <div class="text-start text-white h-100 d-flex flex-column justify-content-center mx-3">
-                        <a class="mb-1" href="facilities-library.html">
-                            <h2 class="text-white fw-bold">Library</h2>
-                        </a>
-                        <p class="m-0 d-none Open_Sans_font fs-7 lh-lg">
-                            Library of about 25,000 books in both
-                            English and Arabic, and access to EBSCO
-                            accounts for all students
-                        </p>
-                    </div>
-                </div>
-                <div class="">
-                    <img class="img-fluid" src="assets/images/Website pix/5Q7C3951.jpg" alt="Photo">
-                </div>
-            </div>
-        </div>
+         </div>
     </div>
 </div>
 @endsection

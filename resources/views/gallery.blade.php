@@ -27,7 +27,7 @@
                             </div>
                         </div>
                         <div class="gallery_child">
-                            <img class="img-fluid" src="assets/images/Website pix/Home,About us/5Q7C3351.jpg"
+                            <img class="img-fluid" src="assets/images/Website pix/5Q7C2430.jpg"
                                  alt="">
                         </div>
                     </div>
@@ -42,7 +42,7 @@
                             </div>
                         </div>
                         <div class="gallery_child">
-                            <img class="img-fluid" src="assets/images/Website pix/Home,About us/5Q7C3351.jpg"
+                            <img class="img-fluid" src="assets/images/Website pix/Home,About us/467.jpg"
                                  alt="">
                         </div>
                     </div>
@@ -57,7 +57,7 @@
                             </div>
                         </div>
                         <div class="gallery_child">
-                            <img class="img-fluid" src="assets/images/Website pix/Home,About us/5Q7C3351.jpg"
+                            <img class="img-fluid" src="assets/images/Website pix/Home,About us/5Q7C9857.jpg"
                                  alt="">
                         </div>
                     </div>
@@ -74,7 +74,7 @@
                             </div>
                         </div>
                         <div class="gallery_child">
-                            <img class="img-fluid" src="assets/images/Website pix/Home,About us/5Q7C3351.jpg"
+                            <img class="img-fluid" src="assets/images/Website pix/311780751_602081308374762_2136747823361552484_n.jpg"
                                  alt="">
                         </div>
                     </div>
@@ -89,7 +89,7 @@
                             </div>
                         </div>
                         <div class="gallery_child">
-                            <img class="img-fluid" src="assets/images/Website pix/Home,About us/5Q7C3351.jpg"
+                            <img class="img-fluid" src="assets/images/Website pix/5Q7C3337.JPG"
                                  alt="">
                         </div>
                     </div>
@@ -104,7 +104,7 @@
                             </div>
                         </div>
                         <div class="gallery_child">
-                            <img class="img-fluid" src="assets/images/Website pix/Home,About us/5Q7C3351.jpg"
+                            <img class="img-fluid" src="assets/images/Website pix/5Q7C3951.jpg"
                                  alt="">
                         </div>
                     </div>
@@ -122,7 +122,7 @@
                             </div>
                         </div>
                         <div class="gallery_child">
-                            <img class="img-fluid" src="assets/images/Website pix/Home,About us/5Q7C3351.jpg"
+                            <img class="img-fluid" src="assets/images/Website pix/5Q7C7288.JPG"
                                  alt="">
                         </div>
                     </div>
@@ -137,7 +137,7 @@
                             </div>
                         </div>
                         <div class="gallery_child">
-                            <img class="img-fluid" src="assets/images/Website pix/Home,About us/5Q7C3351.jpg"
+                            <img class="img-fluid" src="assets/images/Website pix/5Q7C9948.JPG"
                                  alt="">
                         </div>
                     </div>
@@ -171,27 +171,27 @@
                             <p class="text-center text-capitalize fs-4 mt-2">text-start</p>
                         </div>
                         <div class="">
-                            <img class="rounded-3 img-fluid" src="assets/images/Website pix/5Q7C7656.jpg"
+                            <img class="rounded-3 img-fluid" src="assets/images/Website pix/5Q7C1255.jpg"
                                  alt="Event Photo">
                             <p class="text-center text-capitalize fs-4 mt-2">text-start</p>
                         </div>
                         <div class="">
-                            <img class="rounded-3 img-fluid" src="assets/images/Website pix/5Q7C3951.jpg"
+                            <img class="rounded-3 img-fluid" src="assets/images/Website pix/5Q7C1899.jpg"
                                  alt="Event Photo">
                             <p class="text-center text-capitalize fs-4 mt-2">text-start</p>
                         </div>
                         <div class="">
-                            <img class="rounded-3 img-fluid" src="assets/images/Website pix/Picture 400.jpg"
+                            <img class="rounded-3 img-fluid" src="assets/images/Website pix/5Q7C3351.jpg"
                                  alt="Event Photo">
                             <p class="text-center text-capitalize fs-4 mt-2">text-start</p>
                         </div>
                         <div class="">
-                            <img class="rounded-3 img-fluid" src="assets/images/Website pix/5Q7C7656.jpg"
+                            <img class="rounded-3 img-fluid" src="assets/images/Website pix/5Q7C9152.jpg"
                                  alt="Event Photo">
                             <p class="text-center text-capitalize fs-4 mt-2">text-start</p>
                         </div>
                         <div class="">
-                            <img class="rounded-3 img-fluid" src="assets/images/Website pix/5Q7C3951.jpg"
+                            <img class="rounded-3 img-fluid" src="assets/images/Website pix/5Q7C9857.jpg"
                                  alt="Event Photo">
                             <p class="text-center text-capitalize fs-4 mt-2">text-start</p>
                         </div>

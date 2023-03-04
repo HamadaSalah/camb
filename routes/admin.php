@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Admin\CalenderController;
+use App\Http\Controllers\Admin\EventsController;
 use App\Http\Controllers\Admin\LoginController;
 use App\Http\Controllers\SliderController;
 use Illuminate\Support\Facades\Route;
@@ -23,6 +24,7 @@ Route::prefix('admin')->middleware('auth:admin')->name('admin.')->group(function
     Route::get('/index', [LoginController::class, 'index'])->name('index');
     Route::resource('/slider', SliderController::class);
     Route::resource('/calender', CalenderController::class);
+    Route::resource('/events', EventsController::class);
 
  });
 ?>

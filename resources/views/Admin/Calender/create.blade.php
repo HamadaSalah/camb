@@ -1,37 +1,36 @@
 @extends('Admin.master')
 @section('content')
-<h2 style="padding-bottom: 35px;float: left;">Add Nwe Slider </h2>
+<h2 style="padding-bottom: 35px;float: left;">Add New Calender </h2>
 
 <div class="clearfix"></div>
 
-<form method="POST" action="{{route('admin.slider.store')}}" enctype="multipart/form-data">
+<form method="POST" action="{{route('admin.calender.store')}}" enctype="multipart/form-data">
     @csrf
     <div class="form-group">
-        <label for="img">IMG</label>
-        <input type="file" class="form-control" id="img" name="img"  placeholder="Write Body.." required>
+        <label for="img">Start</label>
+        <input type="date" class="form-control" name="start"  placeholder="Start..">
     </div>
     <div class="form-group">
-        <label for="name">Head</label>
-        <textarea type="name" class="form-control" id="name" name="head[]"  placeholder="Write Head.." required></textarea>
-    </div>
-	<div id='input-cont'>
-        <!--Input container-->
-    </div>
-    <button onclick='addInput()' style="float: right" type="button" class="btn btn-success">+ Add New head</button>
+        <label for="role">Select Category</label>
+        <select class="form-control" id="role" required name="category">
+            <option value="PRIMARY">PRIMARY</option>
+            <option value="KINDERGARTEN">KINDERGARTEN</option>
+            <option value="MYP">MYP</option>
+            <option value="IBDP">IBDP</option>
+            <option value="CAS">CAS</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="role">Type</label> 
+        <select class="form-control" id="role" required name="type">
+            <option value="Assessment">Assessment</option>
+            <option value="Holiday">Holiday</option>
+            <option value="Event">Event</option>
+            <option value="Meeting">Meeting</option>
+            <option value="Trips">Trips</option>
+        </select>
+      </div>
     
-    <script>
-        const container = document.getElementById('input-cont');
-
-        // Call addInput() function on button click
-        function addInput(){
-            let input = document.createElement('textarea');
-            input.placeholder = 'Type something';
-            input.className = 'form-control mb-2';
-            input.name = 'head[]';
-            container.appendChild(input);
-        }
-    </script>
-
     <button type="submit" class="btn btn-primary">Submit</button>
   </form>
 

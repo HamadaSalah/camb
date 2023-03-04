@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-div class="primary_page">
+<div class="primary_page">
 <div class="w-100 z-1">
     <img class="w-100" src="assets/images/Assets.png" alt="">
 </div>
