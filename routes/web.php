@@ -18,6 +18,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', [HomeController::class, 'index'])->name('index');
+Route::get('/media', [HomeController::class, 'media'])->name('media');
 Route::get('/welcome', [HomeController::class, 'welcome'])->name('welcome');
 Route::get('/reach-us', [HomeController::class, 'reachus'])->name('reachus');
 Route::get('/school-ploice', [HomeController::class, 'schoolPolice'])->name('schoolPolice');

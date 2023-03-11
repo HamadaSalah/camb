@@ -30,27 +30,25 @@
                 class="down_footer py-4 px-1 text-center text-white d-flex flex-column flex-xl-row flex-lg-row align-items-center justify-content-between border-top border-white">
                 <div class="d-flex flex-column flex-xl-row flex-lg-row align-items-center">
                     <ul class="left-side d-flex align-items-center Open_Sans_font text-uppercase py-2">
-                        <li class="px-3"><a class="text-white" href="index.html">home</a></li>
+                        <li class="px-3"><a class="text-white" href="{{route('welcome')}}">home</a></li>
                         <span>|</span>
-                        <li class="px-3"><a class="text-white" href="about-us.html">about us</a></li>
+                        <li class="px-3"><a class="text-white" href="{{route('reachus')}}">about us</a></li>
                     </ul>
                     <ul class="left-side d-flex align-items-center Open_Sans_font text-uppercase py-2">
                         <span class="d-none d-lg-block d-xl-block d-xxl-block">|</span>
-                        <li class="px-3"><a class="text-white" href="admission.html">admission</a></li>
+                        <li class="px-3"><a class="text-white" href="{{route('schoolPolice')}}">admission</a></li>
                         <span>|</span>
-                        <li class="px-3"><a class="text-white" href="cas.html">chs life</a></li>
+                        <li class="px-3"><a class="text-white" href="{{route('facilities')}}">chs life</a></li>
                     </ul>
                     <ul class="left-side d-flex align-items-center Open_Sans_font text-uppercase py-2">
                         <span class="d-none d-lg-block d-xl-block d-xxl-block">|</span>
-                        <li class="px-3"><a class="text-white" href="calender.html">calender</a></li>
+                        <li class="px-3"><a class="text-white" href="{{route('calender')}}">calender</a></li>
                         <span>|</span>
-                        <li class="px-3"><a class="text-white" href="media.html">media</a></li>
+                        <li class="px-3"><a class="text-white" href="{{route('media')}}">media</a></li>
                     </ul>
                     <ul class="left-side d-flex align-items-center Open_Sans_font text-uppercase py-2">
                         <span class="d-none d-lg-block d-xl-block d-xxl-block">|</span>
-                        <li class="px-3"><a class="text-white" href="library.html">library</a></li>
-                        <span>|</span>
-                        <li class="px-3"><a class="text-white" href="education.html">education</a></li>
+                        <li class="px-3"><a class="text-white" href="{{route('gallery')}}">library</a></li>
                     </ul>
                 </div>
                 <div class="right-side px-3 pt-3 pt-lg-0 pt-xl-0 text-uppercase Open_Sans_font">

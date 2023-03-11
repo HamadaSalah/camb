@@ -134,4 +134,8 @@ class HomeController extends Controller
         $tut = Tut::where('class', $request->name)->first();
         return $tut;
     }
+    public function media() {
+        return view('media');
+
+    }
 }
