@@ -15,7 +15,7 @@ class SliderController extends Controller
      */
     public function index()
     {
-        return view('admin.slider.index', [
+        return view('admin.Slider.index', [
             'sliders' =>  HomeSlider::all()
         ]);
     }
@@ -27,7 +27,7 @@ class SliderController extends Controller
      */
     public function create()
     {
-        return view('admin.slider.create', [
+        return view('admin.Slider.create', [
         ]);
     }
 
@@ -67,7 +67,7 @@ class SliderController extends Controller
      */
     public function edit($id)
     {
-        return view('admin.slider.edit', [
+        return view('admin.Slider.edit', [
             'slider' => HomeSlider::findOrFail($id)
         ]);
     }
