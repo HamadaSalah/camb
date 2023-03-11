@@ -83,7 +83,6 @@ footer .fa {
 .fc .fc-daygrid-day-bg .fc-bg-event {
     z-index: 2;
     border-radius: 15px;
-    padding: 15px;
     border: 5px solid #fff;
 }
 .fc .fc-col-header-cell-cushion {
@@ -91,8 +90,34 @@ footer .fa {
     font-weight: bold;
     font-family: 'Open Sans';
 }
+.fc-event-title {
+    display: none;
+    color: #FFF;
+    text-align: center;
+    margin: auto;
+}
+.fc-day {
+    cursor: pointer;
+}
+/* .fc-event:hover >.fc-event-title {
+    display: block
+}
+.fc-daygrid-day-number:hover ~ .fc-event-title {
+    display: block;
+} */
 
-
+.carousel-control-prev-icon {
+    background-color: #b11e24;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+.carousel-control-next-icon {
+    background-color: #b11e24;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
 
 
 

@@ -22,10 +22,7 @@
                 <tr>
                     <td>{{$slider->id}}</td>
                     <td style="text-align: left;float: left;">
-                        @foreach ($slider->head as $item)
-                            <li  style="text-align: left;float: left;margin-bottom: 20px;list-style: numeric">{{substr($item, 0, 110)}}...</li><br/><br/>
-                        @endforeach
-                        {{-- {{$slider->head}}</td> --}}
+                        {{$slider->head}}                        
                     <td>
                         <a data-fancybox="gallery" href="{{asset($slider->img)}}"> <img src="{{asset($slider->img)}}" style="width: 100px;height: 100px;" class="img-thumbnail" alt=""></a>
                     </td>
@@ -35,9 +32,9 @@
                             @method('DELETE')
                             <button class="btn btn-danger" type="submit"><i class="fa fa-trash"></i> Delete</button>
                         </form>
-                        <a href="{{Route('admin.slider.edit', $slider->id)}} ">
+                        {{-- <a href="{{Route('admin.slider.edit', $slider->id)}} ">
                             <button class="btn btn-primary"><i class="fa fa-pencil-square-o"></i> Edit</button>
-                        </a>
+                        </a> --}}
                     </td>
 
                 </tr>

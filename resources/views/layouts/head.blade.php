@@ -29,7 +29,6 @@
     <link rel="mask-icon" href="{{ asset('3bsHYHMj4xyKyfPHP1NfPMYGF4SG2M5DX3VN9eEPRWdd') }}" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
-
     <!-- OG Meta -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="">

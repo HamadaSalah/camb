@@ -20,7 +20,7 @@ return new class extends Migration
 
             $table->string('sec2_p')->nullable();
             $table->string('sec2_p2')->nullable();
-            $table->json('sec2_img')->nullable();
+            $table->string('sec2_img')->nullable();
 
             $table->string('sec3_p')->nullable();
             $table->string('sec3_img')->nullable();

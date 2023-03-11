@@ -21,10 +21,10 @@
                 <div class="_link-border rounded-3 py-2">
                     <div class="text-start text-white h-100 d-flex flex-column justify-content-center mx-3">
                         <a class="mb-1" href="{{route('getFacilities', 1)}}">
-                            <h2 class="text-white fw-bold">MUSIC</h2>
+                            <h2 class="text-white fw-bold">LIBRARY</h2>
                         </a>
                         <p class="m-0 d-none Open_Sans_font fs-7 lh-lg">
-                            MUSIC of about 25,000 books in both
+                            LIBRARY of about 25,000 books in both
                             English and Arabic, and access to EBSCO
                             accounts for all students
                         </p>
@@ -37,11 +37,11 @@
             <div class="position-relative _overlay rounded-3 overflow-hidden">
                 <div class="_link-border rounded-3 py-2">
                     <div class="text-start text-white h-100 d-flex flex-column justify-content-center mx-3">
-                        <a class="mb-1" href="{{route('getFacilities', 1)}}">
-                            <h2 class="text-white fw-bold">PHOTOGRAPHY</h2>
+                        <a class="mb-1" href="{{route('getFacilities', 2)}}">
+                            <h2 class="text-white fw-bold">MUSIC</h2>
                         </a>
                         <p class="m-0 d-none Open_Sans_font fs-7 lh-lg">
-                            PHOTOGRAPHY of about 25,000 books in both
+                            MUSIC of about 25,000 books in both
                             English and Arabic, and access to EBSCO
                             accounts for all students
                         </p>
@@ -54,11 +54,11 @@
             <div class="position-relative _overlay rounded-3 overflow-hidden">
                 <div class="_link-border rounded-3 py-2">
                     <div class="text-start text-white h-100 d-flex flex-column justify-content-center mx-3">
-                        <a class="mb-1" href="{{route('getFacilities', 1)}}">
-                            <h2 class="text-white fw-bold">MUSIC</h2>
+                        <a class="mb-1" href="{{route('getFacilities', 3)}}">
+                            <h2 class="text-white fw-bold">CLASS ROOM</h2>
                         </a>
                         <p class="m-0 d-none Open_Sans_font fs-7 lh-lg">
-                            MUSIC of about 25,000 books in both
+                            CLASS ROOM of about 25,000 books in both
                             English and Arabic, and access to EBSCO
                             accounts for all students
                         </p>
@@ -72,11 +72,28 @@
             <div class="position-relative _overlay rounded-3 overflow-hidden">
                 <div class="_link-border rounded-3 py-2">
                     <div class="text-start text-white h-100 d-flex flex-column justify-content-center mx-3">
-                        <a class="mb-1" href="{{route('getFacilities', 1)}}">
+                        <a class="mb-1" href="{{route('getFacilities', 5)}}">
                             <h2 class="text-white fw-bold">THEATRE</h2>
                         </a>
                         <p class="m-0 d-none Open_Sans_font fs-7 lh-lg">
                             THEATRE of about 25,000 books in both
+                            English and Arabic, and access to EBSCO
+                            accounts for all students
+                        </p>
+                    </div>
+                </div>
+                <div class="">
+                    <img class="img-fluid" src="assets/images/Website pix/Picture 400.jpg" alt="Photo">
+                </div>
+            </div>
+            <div class="position-relative _overlay rounded-3 overflow-hidden">
+                <div class="_link-border rounded-3 py-2">
+                    <div class="text-start text-white h-100 d-flex flex-column justify-content-center mx-3">
+                        <a class="mb-1" href="{{route('getFacilities', 4)}}">
+                            <h2 class="text-white fw-bold">PHOTOGRAPHY</h2>
+                        </a>
+                        <p class="m-0 d-none Open_Sans_font fs-7 lh-lg">
+                            PHOTOGRAPHY of about 25,000 books in both
                             English and Arabic, and access to EBSCO
                             accounts for all students
                         </p>

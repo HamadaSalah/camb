@@ -9,14 +9,7 @@
                         <div class="text-container padding-start ps-0 ps-md-5 ps-lg-5 ps-xl-5 ps-xxl-5 py-5 text-center text-md-start text-lg-start rechp">
                             <h2 class="text-capitalize fw-bold pb-4">reach us</h2>
                             <p class="ps-2 pe-2 pe-md-5 pe-lg-5 Open_Sans_font text-center text-md-start text-lg-start">
-                                Welcomel! We look forward to hearing from you whether it be compliments, complaints,
-                                or concerns and encourage
-                                open lines of communication with the appropriate parties.
-                                If for any reason your compliments, complaints or concerns have passed without
-                                acknowledgement and/or
-                                resolution, we encourage you to submit a written compliment or complaint through
-                                this portal.. Your complaint will
-                                be seen, confidentially, who will then manage or delegate your concern.
+                                {{$reachus->head}}
                             </p>
                         </div>
                         <div class="main_color_bg w-25 shape-line">
@@ -34,8 +27,7 @@
                         <div class="col-12 col-md-6 col-lg-3">
                         </div>
                         <div class="col-12 col-md-6 col-lg-3">
-                            <img src="assets/images/Website pix/Reach us/5Q7C4516.jpg" alt=""
-                                 class="img-fluid rounded-3 mt-4">
+                            <img src="{{asset($reachus->f_img)}}" alt="" class="img-fluid rounded-3 mt-4">
                         </div>
                         <div class="col-12 col-md-6 col-lg-3">
                             <img src="assets/images/Website pix/Reach us/001 (3).jpg" alt=""
@@ -47,17 +39,17 @@
                     <div class="px-3 py-4 w-content-75 white_bg rounded-3 mt-5 addresses">
                         <div class="text-container padding-start ps-0 ps-md-5 ps-lg-5 ps-xl-5 ps-xxl-5 text-center text-md-start text-lg-start">
                             <h2 class="text-capitalize mb-3">CALL US , VISIT US, EMIL US</h2>
-                            <a class="Open_Sans_font pb-1" href="cambridge@cambridge.edu.jo"><p
+                            <a class="Open_Sans_font pb-1"  href="mailto:{{$reachus->email}}"><p
                                     class="ps-2 w-content-50 Open_Sans_font text-center text-md-start text-lg-start m-0">
-                                cambridge@cambridge.edu.jo</p></a>
+                                {{$reachus->email}}</p></a>
                             <p class="ps-2 w-content-50 m-0 pb-1 Open_Sans_font text-center text-md-start text-lg-start">
                                 Amman - Al Rabia- Abdalkareem Al Dabbas St.
                             </p>
                             <p class="ps-2 w-content-50 m-0 pb-1 Open_Sans_font text-center text-md-start text-lg-start">
-                                +962 6 551 2556
+                                {{$reachus->phone1}}
                             </p>
                             <p class="ps-2 w-content-50 m-0 pb-1 Open_Sans_font text-center text-md-start text-lg-start">
-                                +962 79 900 0533
+                                {{$reachus->phone2}}
                             </p>
                             <a class="Open_Sans_font pb-1" href="#"><p
                                     class="ps-2 w-content-50 Open_Sans_font text-center text-md-start text-lg-start m-0">
@@ -77,7 +69,7 @@
                 <div class="col-12 col-md-12 col-lg-6 mt-4">
                     <div class="row h-100 misimg">
                         <div class="col-6">
-                            <img src="assets/images/Website pix/Reach us/5Q7C0597.jpg" alt=""
+                            <img src="{{asset($reachus->l_img)}}" alt=""
                                  class="h-100 rounded-3">
                         </div>
                         <div class="col-6">

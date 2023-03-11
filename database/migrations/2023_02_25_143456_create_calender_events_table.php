@@ -20,6 +20,7 @@ return new class extends Migration
             $table->string('display');
             $table->string('color');
             $table->string('category');
+            $table->string('type');
             $table->timestamps();
         });
     }

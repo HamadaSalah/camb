@@ -39,15 +39,9 @@ class SliderController extends Controller
      */
     public function store(Request $request)
     {
-        $head = $request->head;
-        foreach ($head as $key =>$item){
-            if($item == NULL){
-              unset($head[$key]);
-            }
-        }
-        $img = $this->verifyAndStoreImage($request);
+         $img = $this->verifyAndStoreImage($request);
         HomeSlider::create([
-            'head' => $head,
+            'head' => $request->head,
             'img' => $img
         ]);
 

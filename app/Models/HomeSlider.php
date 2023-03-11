@@ -11,7 +11,4 @@ class HomeSlider extends Model
     
     protected $guarded = [];
 
-    protected $casts = [
-        'head' => 'array',
-    ];
 }

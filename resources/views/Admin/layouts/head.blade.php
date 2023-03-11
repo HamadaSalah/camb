@@ -14,7 +14,7 @@
                                     <span class="d-lg-none">Dashboard</span>
                                 </a>
                             </li>
-                            <li class="dropdown nav-item">
+                            {{-- <li class="dropdown nav-item">
                                 <a href="#" class="dropdown-toggle nav-link notifyLink" data-toggle="dropdown">
                                     <i class="nc-icon nc-bell-55"></i>
                                     <span class="notification">5</span>
@@ -27,7 +27,7 @@
                                     </a>
 
                                 </ul>
-                            </li>
+                            </li> --}}
                         </ul>
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">

@@ -12,20 +12,25 @@ trait StoreImageTrait {
     public function verifyAndStoreImage( Request $request, $fieldname = 'img', $directory = 'uploads' ) {
 
         if( $request->hasFile( $fieldname ) ) {
-            $file = $request->file('img');
+            $file = $request->file($fieldname ?? 'img');
             $ext = $file->getClientOriginalExtension();
             $filename = 'imgs'.'_'.time().'.'.$ext;
             $storagePath = Storage::disk('public_uploads')->put('/'.$directory, $file);
             $storageName = basename($storagePath);
             return $directory . '/' . $storageName;
 
+        }
+    }
+    public function verifyAndStoreVideo( Request $request, $fieldname = 'video', $directory = 'uploads' ) {
 
+        if( $request->hasFile( $fieldname ) ) {
+            $file = $request->file('video');
+            $ext = $file->getClientOriginalExtension();
+            $filename = 'videos'.'_'.time().'.'.$ext;
+            $storagePath = Storage::disk('public_uploads')->put('/'.$directory, $file);
+            $storageName = basename($storagePath);
+            return $directory . '/' . $storageName;
 
-
-                // $ext = $request->file($fieldname)->getClientOriginalExtension();
-                // $filename = $directory.'_'.time().Str::random(8).'.'.$ext;
-                // $request->file($fieldname)->storeAs('public/'.$directory, $filename);
-                // $mydata = $filename;
         }
     }
 

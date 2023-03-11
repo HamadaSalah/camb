@@ -15,15 +15,15 @@ return new class extends Migration
     {
         Schema::create('welcomes', function (Blueprint $table) {
             $table->id();
-            $table->json('img')->nullable();
+            $table->string('img')->nullable();
             $table->string('open_in')->nullable();
-            $table->string('desc')->nullable();
+            $table->longText('desc')->nullable();
             $table->string('his_img')->nullable();
-            $table->string('his_desc')->nullable();
-            $table->json('mis_img')->nullable();
-            $table->string('mis_desc')->nullable();
+            $table->longText('his_desc')->nullable();
+            $table->string('mis_img')->nullable();
+            $table->longText('mis_desc')->nullable();
             $table->string('vis_img')->nullable();
-            $table->string('vis_desc')->nullable();
+            $table->longText('vis_desc')->nullable();
             $table->timestamps();
         });
     }

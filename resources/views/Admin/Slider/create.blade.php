@@ -12,25 +12,8 @@
     </div>
     <div class="form-group">
         <label for="name">Head</label>
-        <textarea type="name" class="form-control" id="name" name="head[]"  placeholder="Write Head.." required></textarea>
+        <textarea type="name" class="form-control" id="name" name="head"  placeholder="Write Head.." required></textarea>
     </div>
-	<div id='input-cont'>
-        <!--Input container-->
-    </div>
-    <button onclick='addInput()' style="float: right" type="button" class="btn btn-success">+ Add New head</button>
-    
-    <script>
-        const container = document.getElementById('input-cont');
-
-        // Call addInput() function on button click
-        function addInput(){
-            let input = document.createElement('textarea');
-            input.placeholder = 'Type something';
-            input.className = 'form-control mb-2';
-            input.name = 'head[]';
-            container.appendChild(input);
-        }
-    </script>
 
     <button type="submit" class="btn btn-primary">Submit</button>
   </form>

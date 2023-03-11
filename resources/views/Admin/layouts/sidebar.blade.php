@@ -8,20 +8,64 @@
                 <ul class="nav">
                     <li class="{{ Request::segment(2) == 'slider' ? 'active' : null }}">
                         <a class="nav-link" href="{{route('admin.slider.index')}}">
-                            <i class="nc-icon nc-align-center"></i>
+                            <i class="nc-icon nc-button-play"></i>
                             <p>Slider</p>
                         </a>
                     </li>
                     <li class="{{ Request::segment(2) == 'events' ? 'active' : null }}">
                         <a class="nav-link" href="{{route('admin.events.index')}}">
-                            <i class="nc-icon nc-align-center"></i>
+                            <i class="nc-icon nc-notification-70"></i>
                             <p>Events</p>
                         </a>
                     </li>
                     <li class="{{ Request::segment(2) == 'calender' ? 'active' : null }}">
                         <a class="nav-link" href="{{route('admin.calender.index')}}">
-                            <i class="nc-icon nc-align-center"></i>
+                            <i class="nc-icon nc-single-copy-04"></i>
                             <p>Calender</p>
+                        </a>
+                    </li>
+                    <li class="{{ Request::segment(2) == 'videos' ? 'active' : null }}">
+                        <a class="nav-link" href="{{route('admin.videos.index')}}">
+                            <i class="nc-icon nc-camera-20"></i>
+                            <p>Videos</p>
+                        </a>
+                    </li>
+                    <li class="{{ Request::segment(2) == 'gallery' ? 'active' : null }}">
+                        <a class="nav-link" href="{{route('admin.gallery.index')}}">
+                            <i class="nc-icon nc-album-2"></i>
+                            <p>Gallery</p>
+                        </a>
+                    </li>
+                    <li class="{{ Request::segment(2) == 'facil' ? 'active' : null }}">
+                        <a class="nav-link" href="{{route('admin.facil.index')}}">
+                            <i class="nc-icon nc-album-2"></i>
+                            <p>Facilities</p>
+                        </a>
+                    </li>
+                    <li class="{{ Request::segment(2) == 'welcome' ? 'active' : null }}">
+                        <a class="nav-link" href="{{route('admin.welcome.index')}}">
+                            <i class="nc-icon nc-align-center"></i>
+                            <p>Welcome Page</p>
+                        </a>
+                    </li>
+ 
+                    <li class="{{ Request::segment(2) == 'reachus' ? 'active' : null }}">
+                        <a class="nav-link" href="{{route('admin.reachus.index')}}">
+                            <i class="nc-icon nc-badge"></i>
+                            <p>Reach Us Page</p>
+                        </a>
+                    </li>
+ 
+                    <li class="{{ Request::segment(2) == 'class' ? 'active' : null }}">
+                        <a class="nav-link" href="{{route('admin.class.index')}}">
+                            <i class="nc-icon nc-bus-front-12"></i>
+                            <p>Classess</p>
+                        </a>
+                    </li>
+                    <li class="{{ Request::segment(2) == 'police' ? 'active' : null }}">
+                        <a class="nav-link" href="{{route('admin.police.index')}}">
+                            <i class="nc-icon nc-paper-2"></i>
+                            <p>School Polices</p>
                         </a>
                     </li>
  

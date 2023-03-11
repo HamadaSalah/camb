@@ -22,13 +22,13 @@ return new class extends Migration
             $table->string('sec2_img')->nullable();
 
             $table->string('sec3_p')->nullable();
-            $table->json('sec3_img')->nullable();
+            $table->string('sec3_img')->nullable();
 
             $table->string('sec4_p')->nullable();
-            $table->json('sec4_img')->nullable();
+            $table->string('sec4_img')->nullable();
 
             $table->string('sec5_p')->nullable();
-            $table->json('sec5_img')->nullable();
+            $table->string('sec5_img')->nullable();
 
             $table->string('sec6_p')->nullable();
 

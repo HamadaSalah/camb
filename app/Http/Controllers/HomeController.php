@@ -3,6 +3,13 @@
 namespace App\Http\Controllers;
 
 use App\Models\CalenderEvent;
+use App\Models\Event;
+use App\Models\Facil;
+use App\Models\Gallery;
+use App\Models\HomeSlider;
+use App\Models\Polices;
+use App\Models\ReachUs;
+use App\Models\Welcome;
 use Illuminate\Http\Request;
 use Illuminate\View\View;
 
@@ -25,21 +32,37 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $school_calender = CalenderEvent::select('start', 'end', 'display', 'color')->get();
-        return view('home', compact('school_calender'));
+        $school_calender = CalenderEvent::select('start', 'end', 'display', 'color', 'category', 'type')->get()->map(function($school_calender, $key) {									
+            return [
+                'start' => $school_calender->start, 
+                'end' => $school_calender->end, 
+                'display' => $school_calender->display, 
+                'color' => $school_calender->color,
+                'title' => $school_calender->type,
+                ];
+            });;
+
+        $sliders = HomeSlider::all();
+        $cards = Event::latest()->get()->take(6);
+        return view('home', compact('school_calender', 'sliders', 'cards'));
     }
     public function welcome() 
-    {   return view('welcome');
+    {   
+        $welcome  = Welcome::first();
+        return view('welcome',  compact('welcome'));
 
     }
     //end of welcome
     public function reachus() 
-    {   return view('reachus');
+    {   
+        $reachus = ReachUs::first();
+        return view('reachus', compact('reachus'));
 
     }
     //end of reachus
     public function schoolPolice() {
-        return view('schoolPolice');
+        $police = Polices::first();
+        return view('schoolPolice', compact('police'));
     }
     //end of schoolPloice
     public function tuitionFees() {
@@ -71,23 +94,35 @@ class HomeController extends Controller
     }
     //end of CAS
     public function calender() {
-        return view('calender');
+        $school_calender = CalenderEvent::select('start', 'end', 'display', 'color', 'category', 'type')->get()->map(function($school_calender, $key) {									
+            return [
+                'start' => $school_calender->start, 
+                'end' => $school_calender->end, 
+                'display' => $school_calender->display, 
+                'color' => $school_calender->color,
+                'title' => $school_calender->type,
+                ];
+            });;
+
+        return view('calender', compact('school_calender'));
     }
     //end of calender
     public function gallery() {
         return view('gallery');
     }
     //end of gallery
-    public function getGallery() {
-        return view('getGallery');
+    public function getGallery($id) {
+        $gals = Gallery::where('category_id', $id)->get();
+        return view('getGallery', compact('gals'));
     }
     //end of getGallery
     public function facilities() {
         return view('facilities');
     }
     //end of facilities
-    public function getFacilities() {
-        return view('getFacilities');
+    public function getFacilities($id) {
+        $facs = Facil::where('category_id', $id)->get();
+        return view('getFacilities', compact('facs'));
     }
     //end of getFacilities
 }

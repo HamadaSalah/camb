@@ -15,12 +15,12 @@ return new class extends Migration
     {
         Schema::create('reach_us', function (Blueprint $table) {
             $table->id();
-            $table->string('head')->nullable();
-            $table->json('f_img')->nullable();
+            $table->longText('head')->nullable();
+            $table->string('f_img')->nullable();
             $table->string('email')->nullable();
             $table->string('phone1')->nullable();
             $table->string('phone2')->nullable();
-            $table->json('l_img')->nullable();
+            $table->string('l_img')->nullable();
             $table->timestamps();
         });
     }

@@ -24,7 +24,7 @@ label {
 }
 
 thead {
-    background: #996bdb;
+    background: #b11d25;
 }
 th {
     color: #FFF!important;
@@ -553,9 +553,21 @@ img::after {
 }
 
 
+textarea {
+  min-height: 120px;
+}
 
+.carousel-control-next-icon {
+  background-color: #b11e24;
+  border-radius: 20px;
+  padding: 20px;
+}
 
-
+.carousel-control-prev-icon {
+  background-color: #b11e24;
+  border-radius: 20px;
+  padding: 20px;
+}
 
 
 

@@ -18,59 +18,58 @@
         <div class="rotate-dev">
             <div class="row justify-content-center align-items-center">
                 <div class="col-12 col-md-4 col-lg-4 p-0 w-auto">
-                    <div class="gallery z-n1">
-                        <div class="gallery_border">
-                            <div class="link-address text-center Open_Sans_font">
-                                <a class="" href="#">
-                                    <h5 class="text-white m-0">Facilities</h5>
-                                </a>
+                        <a href="{{route('getGallery', 1)}}">
+                        <div class="gallery z-n1">
+                            <div class="gallery_border">
+                                <div class="link-address text-center Open_Sans_font">
+                                        <h5 class="text-white m-0">Facilities</h5>
+                                </div>
+                            </div>
+                            <div class="gallery_child">
+                                <img class="img-fluid" src="assets/images/Website pix/5Q7C2430.jpg"
+                                    alt="">
                             </div>
                         </div>
-                        <div class="gallery_child">
-                            <img class="img-fluid" src="assets/images/Website pix/5Q7C2430.jpg"
-                                 alt="">
-                        </div>
+                    </a>
                     </div>
+                <div class="col-12 col-md-4 col-lg-4 p-0 w-auto">
+                    <a href="{{route('getGallery', 2)}}">
+                        <div class="gallery z-n1">
+                            <div class="gallery_border">
+                                <div class="link-address text-center Open_Sans_font">
+                                        <h5 class="text-white m-0">Graduations</h5>
+                                </div>
+                            </div>
+                            <div class="gallery_child">
+                                <img class="img-fluid" src="assets/images/Website pix/Home,About us/467.jpg"
+                                    alt="">
+                            </div>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-12 col-md-4 col-lg-4 p-0 w-auto">
-                    <div class="gallery z-n1">
-                        <div class="gallery_border">
-                            <div class="link-address text-center Open_Sans_font">
-                                <a class="" href="">
-                                    <h5 class="text-white m-0">Graduations</h5>
-                                </a>
+                    <a href="{{route('getGallery', 3)}}">
+                        <div class="gallery z-n1">
+                            <div class="gallery_border">
+                                <div class="link-address text-center Open_Sans_font">
+                                        <h5 class="text-white m-0">Sports</h5>
+                                </div>
+                            </div>
+                            <div class="gallery_child">
+                                <img class="img-fluid" src="assets/images/Website pix/Home,About us/5Q7C9857.jpg"
+                                    alt="">
                             </div>
                         </div>
-                        <div class="gallery_child">
-                            <img class="img-fluid" src="assets/images/Website pix/Home,About us/467.jpg"
-                                 alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 col-lg-4 p-0 w-auto">
-                    <div class="gallery z-n1">
-                        <div class="gallery_border">
-                            <div class="link-address text-center Open_Sans_font">
-                                <a class="" href="">
-                                    <h5 class="text-white m-0">Sports</h5>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="gallery_child">
-                            <img class="img-fluid" src="assets/images/Website pix/Home,About us/5Q7C9857.jpg"
-                                 alt="">
-                        </div>
-                    </div>
+                    </a>
                 </div>
             </div>
             <div class="row justify-content-center align-items-center">
                 <div class="col-12 col-md-4 col-lg-4 p-0 w-auto">
+                    <a href="{{route('getGallery', 4)}}">
                     <div class="gallery z-n1">
                         <div class="gallery_border">
                             <div class="link-address text-center Open_Sans_font">
-                                <a class="" href="">
                                     <h5 class="text-white m-0">IBDP-CAS</h5>
-                                </a>
                             </div>
                         </div>
                         <div class="gallery_child">
@@ -78,14 +77,14 @@
                                  alt="">
                         </div>
                     </div>
+                    </a>
                 </div>
                 <div class="col-12 col-md-4 col-lg-4 p-0 w-auto">
+                    <a href="{{route('getGallery', 5)}}">
                     <div class="gallery z-n1">
                         <div class="gallery_border">
                             <div class="link-address text-center Open_Sans_font">
-                                <a class="" href="">
                                     <h5 class="text-white m-0">Performances</h5>
-                                </a>
                             </div>
                         </div>
                         <div class="gallery_child">
@@ -93,14 +92,14 @@
                                  alt="">
                         </div>
                     </div>
+                    </a>
                 </div>
                 <div class="col-12 col-md-4 col-lg-4 p-0 w-auto">
+                    <a href="{{route('getGallery', 6)}}">
                     <div class="gallery z-n1">
                         <div class="gallery_border">
                             <div class="link-address text-center Open_Sans_font">
-                                <a class="" href="">
                                     <h5 class="text-white m-0">KG Activities</h5>
-                                </a>
                             </div>
                         </div>
                         <div class="gallery_child">
@@ -108,17 +107,17 @@
                                  alt="">
                         </div>
                     </div>
+                    </a>
                 </div>
             </div>
             <div class="row justify-content-center align-items-center justify-content-md-center align-items-md-center justify-content-lg-start align-items-lg-start">
                 <div class="col-12 col-md-4 col-lg-4 p-0 w-auto">
+                    <a href="{{route('getGallery', 7)}}">
                     <div class="gallery z-n1">
                         <div class="gallery_border">
                             <div class="link-address text-center Open_Sans_font">
-                                <a class="" href="">
                                     <h5 class="text-white m-0">Orientations&
                                         Presentations</h5>
-                                </a>
                             </div>
                         </div>
                         <div class="gallery_child">
@@ -126,14 +125,14 @@
                                  alt="">
                         </div>
                     </div>
+                    </a>
                 </div>
                 <div class="col-12 col-md-4 col-lg-4 p-0 w-auto">
+                    <a href="{{route('getGallery', 8)}}">
                     <div class="gallery z-n1">
                         <div class="gallery_border">
                             <div class="link-address text-center Open_Sans_font">
-                                <a class="" href="">
                                     <h5 class="text-white m-0">Celebrations</h5>
-                                </a>
                             </div>
                         </div>
                         <div class="gallery_child">
@@ -141,6 +140,7 @@
                                  alt="">
                         </div>
                     </div>
+                    </a>
                 </div>
             </div>
         </div>
