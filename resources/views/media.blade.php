@@ -34,7 +34,7 @@
                 <div class="download-content">
                     <button class="btn d-flex align-items-center mt-4 mt-md-0 mt-lg-0 gap-2 fs-2">
                         <i class="fa fa-download" aria-hidden="true"></i>
-                        <span class="text-uppercase Open_Sans_font fw-semibold">png</span>
+                        <a href="/assets/images/Logo-Rad.png" download><span class="text-uppercase Open_Sans_font fw-semibold">png</span></a>                    </button>
                     </button>
                 </div>
             </div>
@@ -54,8 +54,7 @@
                 <div class="download-content">
                     <button class="btn d-flex align-items-center mt-4 mt-md-0 mt-lg-0 gap-2 fs-2">
                         <i class="fa fa-download" aria-hidden="true"></i>
-                        <span class="text-uppercase Open_Sans_font fw-semibold">png</span>
-                    </button>
+                        <a href="/assets/images/IBDP.png" download><span class="text-uppercase Open_Sans_font fw-semibold">png</span></a>                    </button>
                 </div>
             </div>
             <div class="col-12 col-md-12 col-lg-12 d-flex flex-column flex-md-row flex-lg-row align-items-center justify-content-between mb-4">
@@ -74,7 +73,7 @@
                 <div class="download-content">
                     <button class="btn d-flex align-items-center mt-4 mt-md-0 mt-lg-0 gap-2 fs-2">
                         <i class="fa fa-download" aria-hidden="true"></i>
-                        <span class="text-uppercase Open_Sans_font fw-semibold">png</span>
+                        <a href="/assets/images/sc.png" download><span class="text-uppercase Open_Sans_font fw-semibold">png</span></a>
                     </button>
                 </div>
             </div>
