@@ -9,6 +9,7 @@ use App\Models\Gallery;
 use App\Models\HomeSlider;
 use App\Models\Polices;
 use App\Models\ReachUs;
+use App\Models\Tut;
 use App\Models\Welcome;
 use Illuminate\Http\Request;
 use Illuminate\View\View;
@@ -66,6 +67,7 @@ class HomeController extends Controller
     }
     //end of schoolPloice
     public function tuitionFees() {
+        $tuts = Tut::all();
         return view('tuitionFees');
     }
     //end of tuitionfees
@@ -125,4 +127,11 @@ class HomeController extends Controller
         return view('getFacilities', compact('facs'));
     }
     //end of getFacilities
+    public function getTut(Request $request) {
+        $request->validate([
+            'name' => 'required'
+        ]);
+        $tut = Tut::where('class', $request->name)->first();
+        return $tut;
+    }
 }

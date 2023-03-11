@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('class')->nullable();
             $table->string('amount')->nullable();
             $table->string('count')->nullable();
-            $table->json('dates')->nullable();
+            $table->string('dates')->nullable();
             $table->timestamps();
         });
     }

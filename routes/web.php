@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProfileController;
+use App\Models\Tut;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -32,4 +33,5 @@ Route::get('/gallery', [HomeController::class, 'gallery'])->name('gallery');
 Route::get('/gallery/{id}', [HomeController::class, 'getGallery'])->name('getGallery');
 Route::get('/facilities', [HomeController::class, 'facilities'])->name('facilities');
 Route::get('/facilities/{id}', [HomeController::class, 'getFacilities'])->name('getFacilities');
+ 
  
