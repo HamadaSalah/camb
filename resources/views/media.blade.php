@@ -60,7 +60,7 @@
             </div>
             <div class="col-12 col-md-12 col-lg-12 d-flex flex-column flex-md-row flex-lg-row align-items-center justify-content-between mb-4">
                 <div class="img-content">
-                    <img src="/assets/images/Logo-Rad.png" alt="" class="imf-fluid media-width">
+                    <img src="/assets/images/sc.png" alt="" class="imf-fluid media-width">
                     <div style="height: 0.15rem;" class="main_color_bg rounded-pill mt-3 media-width">
                     </div>
                 </div>
