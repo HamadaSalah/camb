@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\HomeSlider;
 use App\Traits\StoreImageTrait;
 use Illuminate\Http\Request;
+
 class SliderController extends Controller
 {
     use StoreImageTrait;
@@ -27,8 +28,7 @@ class SliderController extends Controller
      */
     public function create()
     {
-        return view('Admin.Slider.create', [
-        ]);
+        return view('Admin.Slider.create', []);
     }
 
     /**
@@ -39,7 +39,7 @@ class SliderController extends Controller
      */
     public function store(Request $request)
     {
-         $img = $this->verifyAndStoreImage($request);
+        $img = $this->verifyAndStoreImage($request);
         HomeSlider::create([
             'head' => $request->head,
             'img' => $img
@@ -82,17 +82,16 @@ class SliderController extends Controller
     public function update(Request $request, $id)
     {
         $head = $request->head;
-        foreach ($head as $key =>$item){
-            if($item == NULL){
-              unset($head[$key]);
+        foreach ($head as $key => $item) {
+            if ($item == NULL) {
+                unset($head[$key]);
             }
         }
 
         $slider = HomeSlider::findOrFail($id);
-        if($request->has('img')) {
+        if ($request->has('img')) {
             $img = $this->verifyAndStoreImage($request);
-        }
-        else {
+        } else {
             $img = $slider->img;
         }
         $slider->update([
@@ -100,7 +99,6 @@ class SliderController extends Controller
             'img' => $img
         ]);
         return redirect()->route('admin.slider.index')->with('success', 'Updated Successfully');
-
     }
 
     /**
