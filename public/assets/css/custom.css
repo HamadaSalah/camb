@@ -117,7 +117,6 @@ footer .fa {
     border-radius: 10px;
     padding: 20px;
   }
-  
 
 
 
@@ -129,5 +128,9 @@ footer .fa {
         width: 100%;
         margin: auto;
     }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        margin-top: 100px;
+      }
+    
 }
     
