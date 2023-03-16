@@ -86,26 +86,27 @@
                         It is the mission of the Admission Committee to
                         recruit, inform and admit new, qualified students
                     </p>
-                    <form class="Open_Sans_font">
+                    <form class="Open_Sans_font" method="POST" action="{{route('emailToUs')}}">
+                        @csrf
                         <div class="mb-2">
                             <label for="Name" class="form-label Open_Sans_font fs-7 m-0">Name</label>
                             <input type="name" class="form-control rounded-3 shadow fs-7 py-2" id="Name"
-                                   placeholder="Name">
+                                   placeholder="Name" name="name" required>
                         </div>
                         <div class="mb-2">
                             <label for="Email1" class="form-label Open_Sans_font fs-7 m-0">Email</label>
                             <input type="email" class="form-control rounded-3 shadow fs-7 py-2" id="Email1"
-                                   placeholder="Email">
+                                   placeholder="Email" name="email" required>
                         </div>
                         <div class="mb-2">
                             <label for="PhoneNumber" class="form-label Open_Sans_font fs-7 m-0">Phone Number</label>
                             <input type="phoneNumber" class="form-control rounded-3 shadow fs-7 py-2"
-                                   id="PhoneNumber" placeholder="Phone Number">
+                                   id="PhoneNumber" placeholder="Phone Number" name="phone" required>
                         </div>
                         <div class="mb-4">
                             <label for="Message" class="form-label fs-7 Open_Sans_font m-0">Message</label>
                             <textarea class="form-control rounded-3 shadow fs-7" id="Message" rows="3"
-                                      placeholder="Message"></textarea>
+                                      placeholder="Message" name="message" required></textarea>
                         </div>
                         <div class="d-flex justify-content-start justify-content-xxl-end justify-content-xl-end justify-content-lg-end pt-2">
                             <button type="submit" class="rounded-3 first_color hover_btn _borders px-5 py-1">Send

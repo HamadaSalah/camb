@@ -26,7 +26,7 @@ class EventsController extends Controller
      */
     public function create()
     {
-        return view('Admin.events.create');
+        return view('Admin.Events.create');
     }
 
 

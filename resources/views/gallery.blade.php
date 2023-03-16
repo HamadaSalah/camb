@@ -165,68 +165,30 @@
             <div class="row justify-content-center">
                 <div class="col-11 col-md-10 col-lg-8">
                     <div class="slider-for">
-                        <div class="">
-                            <img class="rounded-3 img-fluid" src="assets/images/Website pix/Picture 400.jpg"
-                                 alt="Event Photo">
-                            <p class="text-center text-capitalize fs-4 mt-2">text-start</p>
-                        </div>
-                        <div class="">
-                            <img class="rounded-3 img-fluid" src="assets/images/Website pix/5Q7C1255.jpg"
-                                 alt="Event Photo">
-                            <p class="text-center text-capitalize fs-4 mt-2">text-start</p>
-                        </div>
-                        <div class="">
-                            <img class="rounded-3 img-fluid" src="assets/images/Website pix/5Q7C1899.jpg"
-                                 alt="Event Photo">
-                            <p class="text-center text-capitalize fs-4 mt-2">text-start</p>
-                        </div>
-                        <div class="">
-                            <img class="rounded-3 img-fluid" src="assets/images/Website pix/5Q7C3351.jpg"
-                                 alt="Event Photo">
-                            <p class="text-center text-capitalize fs-4 mt-2">text-start</p>
-                        </div>
-                        <div class="">
-                            <img class="rounded-3 img-fluid" src="assets/images/Website pix/5Q7C9152.jpg"
-                                 alt="Event Photo">
-                            <p class="text-center text-capitalize fs-4 mt-2">text-start</p>
-                        </div>
-                        <div class="">
-                            <img class="rounded-3 img-fluid" src="assets/images/Website pix/5Q7C9857.jpg"
-                                 alt="Event Photo">
-                            <p class="text-center text-capitalize fs-4 mt-2">text-start</p>
-                        </div>
+                        @foreach ($videos as $vid)
+                            <div class="">
+                                
+                                <video width="100%" height="100%" controls>
+                                    <source src="{{asset($vid->video)}}" type="video/mp4">
+                                    Brower Not Support
+                                </video>
+                                <p class="text-center text-capitalize fs-4 mt-2">{{$vid->name}}</p>
+                            </div>                            
+                        @endforeach
+
                     </div>
                     <div class="slider-nav">
+                        @foreach ($videos as $vid)
                         <div class="">
-                            <img class="rounded-2 img-fluid" src="assets/images/Website pix/Picture 400.jpg"
-                                 alt="Event Photo">
-                            <p class="text-center text-capitalize fs-5 mt-2">text</p>
-                        </div>
-                        <div class="">
-                            <img class="rounded-2 img-fluid" src="assets/images/Website pix/5Q7C7656.jpg"
-                                 alt="Event Photo">
-                            <p class="text-center text-capitalize fs-5 mt-2">text</p>
-                        </div>
-                        <div class="">
-                            <img class="rounded-2 img-fluid" src="assets/images/Website pix/5Q7C3951.jpg"
-                                 alt="Event Photo">
-                            <p class="text-center text-capitalize fs-5 mt-2">text</p>
-                        </div>
-                        <div class="">
-                            <img class="rounded-2 img-fluid" src="assets/images/Website pix/Picture 400.jpg"
-                                 alt="Event Photo">
-                            <p class="text-center text-capitalize fs-5 mt-2">text</p>
-                        </div>
-                        <div class="">
-                            <img class="rounded-2 img-fluid" src="assets/images/Website pix/5Q7C7656.jpg"
-                                 alt="Event Photo">
-                            <p class="text-center text-capitalize fs-5 mt-2">text</p>
-                        </div>
-                        <div class="">
-                            <img class="rounded-2 img-fluid" src="assets/images/Website pix/5Q7C3951.jpg"
-                                 alt="Event Photo">
-                            <p class="text-center text-capitalize fs-5 mt-2">text</p>
-                        </div>
+                                
+                            <video width="100%" height="100%" controls>
+                                <source src="{{asset($vid->video)}}" type="video/mp4">
+                                Brower Not Support
+                            </video>
+                            <p class="text-center text-capitalize fs-4 mt-2">{{$vid->name}}</p>
+                        </div>                            
+                    @endforeach
+
                     </div>
                 </div>
             </div>
