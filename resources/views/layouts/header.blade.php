@@ -22,18 +22,16 @@
                     <a class="fs-7 py-2 px-3 rounded-2 btn_anim" href="{{route('schoolPolice')}}">school police</a>
                     <span class=" fs-5 fw-bold first_color">|</span>
                     <a class="fs-7 py-2 px-3 rounded-2 btn_anim" href="{{route('tuitionFees')}}">tuition fees</a>
-                    <span class=" fs-5 fw-bold first_color">|</span>
-                    <a class="fs-7 py-2 px-3 rounded-2 btn_anim" href="{{route('applyNow')}}">apply now</a>
-                </div>
+                 </div>
             </li>
             <li class="fs-5 ">|</li>
             <li class="fs-7 mega  position-relative d-flex flex-column">
                 <a class="fs-7 py-2 px-3 rounded-2 btn_anim" href="programmes.html">programmes</a>
                 <div
                     class="mega-about white_bg top-100 start-50 translate-middle-x position-absolute rounded-3 align-items-center px-1 py-1 _borders">
-                    <a class="fs-7 py-2 px-3 rounded-2 btn_anim" href="{{route('primary')}}">primary</a>
-                    <span class=" fs-5 fw-bold first_color">|</span>
                     <a class="fs-7 py-2 px-3 rounded-2 btn_anim" href="{{route('KG')}}">kindergarten</a>
+                    <span class=" fs-5 fw-bold first_color">|</span>
+                    <a class="fs-7 py-2 px-3 rounded-2 btn_anim" href="{{route('primary')}}">primary</a>
                     <span class=" fs-5 fw-bold first_color">|</span>
                     <a class="fs-7 py-2 px-3 rounded-2 btn_anim" href="{{route('MYP')}}">myp</a>
                     <span class=" fs-5 fw-bold first_color">|</span>
@@ -43,15 +41,13 @@
                 </div>
             </li>
             <li class="fs-5 ">|</li>
-            <li class="fs-7"><a class="fs-7 py-2 px-3 rounded-2 btn_anim" href="calender">calender</a></li>
+            <li class="fs-7"><a class="fs-7 py-2 px-3 rounded-2 btn_anim" href="calender">calendar</a></li>
             <li class="fs-5 ">|</li>
             <li class="fs-7 mega  position-relative d-flex flex-column">
                 <a class="fs-7 py-2 px-3 rounded-2 btn_anim">chs life</a>
                 <div
                     class="mega-about white_bg top-100 start-0 translate-middle-x position-absolute rounded-3 align-items-center px-1 py-1 _borders">
                     <a class="fs-7 py-2 px-3 rounded-2 btn_anim" href="{{route('gallery')}}">gallery</a>
-                    <span class=" fs-5 fw-bold first_color">|</span>
-                    <a class="fs-7 py-2 px-3 rounded-2 btn_anim" href="{{route('facilities')}}">facilities</a>
                 </div>
             </li>
         </ul>
@@ -95,7 +91,7 @@
                         </div>
                     </li>
                     <li class="mega_res mb-3 d-flex flex-column">
-                        <a class="fs-7 px-2 py-1 mb-2 w-fit rounded-2 btn_anim_res _borders" href="{{route('calender')}}">calender</a>
+                        <a class="fs-7 px-2 py-1 mb-2 w-fit rounded-2 btn_anim_res _borders" href="{{route('calender')}}">calendar</a>
                     </li>
                     <li class="mega_res mb-3 d-flex flex-column">
                         <a class="fs-7 px-2 py-1 mb-2 w-fit rounded-2 btn_anim_res _borders">chs life</a>

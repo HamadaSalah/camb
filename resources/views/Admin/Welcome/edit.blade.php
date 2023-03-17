@@ -18,7 +18,11 @@
     </div>
     <div class="form-group">
         <label for="desc">Desc</label>
-        <input type="name" class="form-control mb-3" id="desc" name="desc"  placeholder="open in.." required value="{{$welcome->open_in}}">
+        <textarea type="name" class="form-control mb-3" id="desc" name="desc"  placeholder="open in.." required value="">{{$welcome->open_in}}</textarea>
+        <script type="text/javascript">
+            CKEDITOR.replace("desc");
+        </script>
+        
     </div>
 
     <br>
@@ -30,7 +34,11 @@
     </div>
     <div class="form-group">
         <label for="his_desc">History Description</label>
-        <input type="name" class="form-control mb-3" id="his_desc" name="his_desc"  placeholder="open in.." required value="{{$welcome->his_desc}}">
+        <textarea type="name" class="form-control mb-3" id="his_desc" name="his_desc"  placeholder="open in.." required value="">{{$welcome->his_desc}}</textarea>
+        <script type="text/javascript">
+            CKEDITOR.replace("his_desc");
+        </script>
+
     </div>
 
     <br>
@@ -42,7 +50,12 @@
     </div>
     <div class="form-group">
         <label for="mis_desc">Mission Description</label>
-        <input type="name" class="form-control mb-3" id="mis_desc" name="mis_desc"  placeholder="open in.." required value="{{$welcome->mis_desc}}">
+        <textarea type="name" class="form-control mb-3" id="mis_desc" name="mis_desc"  placeholder="open in.." required value="">{{$welcome->mis_desc}}</textarea>
+        <script type="text/javascript">
+            CKEDITOR.replace("mis_desc");
+        </script>
+
+
     </div>
 
     <br>
@@ -54,18 +67,17 @@
     </div>
     <div class="form-group">
         <label for="vis_desc">Mission Description</label>
-        <input type="name" class="form-control mb-3" id="vis_desc" name="vis_desc"  placeholder="open in.." required value="{{$welcome->vis_desc}}">
+        <textarea type="name" class="form-control mb-3" id="vis_desc" name="vis_desc"  placeholder="open in.." required value="">{{$welcome->vis_desc}}</textarea>
+        <script type="text/javascript">
+            CKEDITOR.replace("vis_desc");
+        </script>
+
     </div>
 
     <button type="submit" class="btn btn-primary">Submit</button>
   </form>
 
-@push("custom-css")
-
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
-<link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
-
-@endpush
-@endsection
+  @push("styles")
+  <script src="https://cdn.ckeditor.com/4.20.2/standard/ckeditor.js"></script>
+  @endpush
+  @endsection

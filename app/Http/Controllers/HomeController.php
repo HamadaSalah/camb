@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\CalenderEvent;
 use App\Models\Event;
+use App\Models\EventGall;
 use App\Models\Facil;
 use App\Models\Gallery;
 use App\Models\HomeSlider;
@@ -44,65 +45,82 @@ class HomeController extends Controller
                 'title' => $school_calender->type,
             ];
         });;
-
+        $eventgall = EventGall::all();
         $sliders = HomeSlider::all();
         $cards = Event::latest()->get()->take(6);
-        return view('home', compact('school_calender', 'sliders', 'cards'));
+        return view('home', compact('school_calender', 'sliders', 'cards', 'eventgall'));
     }
+
     public function welcome()
     {
         $welcome  = Welcome::first();
         return view('welcome',  compact('welcome'));
     }
+
     //end of welcome
+
     public function reachus()
     {
         $reachus = ReachUs::first();
         return view('reachus', compact('reachus'));
     }
+
     //end of reachus
+
     public function schoolPolice()
     {
         $police = Polices::first();
         return view('schoolPolice', compact('police'));
     }
+
     //end of schoolPloice
+
     public function tuitionFees()
     {
         $tuts = Tut::all();
         return view('tuitionFees');
     }
+
     //end of tuitionfees
+
     public function applyNow()
     {
         return view('applyNow');
     }
+
     //end of applynow
+
     public function primary()
     {
         return view('primary');
     }
+
     //end of primary
+
     public function KG()
     {
         return view('KG');
     }
     //end of KG
+
     public function MYP()
     {
         return view('MYP');
     }
     //end of MYP
+
     public function IBDP()
     {
         return view('IBDP');
     }
     //end of IBDP
+
     public function CAS()
     {
         return view('CAS');
     }
     //end of CAS
+
     public function calender()
     {
         $school_calender = CalenderEvent::select('start', 'end', 'display', 'color', 'category', 'type')->get()->map(function ($school_calender, $key) {
@@ -118,29 +136,34 @@ class HomeController extends Controller
         return view('calender', compact('school_calender'));
     }
     //end of calender
+
     public function gallery()
     {
         $videos = Video::all();
         return view('gallery', compact('videos'));
     }
     //end of gallery
+
     public function getGallery($id)
     {
         $gals = Gallery::where('category_id', $id)->get();
         return view('getGallery', compact('gals'));
     }
     //end of getGallery
+
     public function facilities()
     {
         return view('facilities');
     }
     //end of facilities
+
     public function getFacilities($id)
     {
         $facs = Facil::where('category_id', $id)->get();
         return view('getFacilities', compact('facs'));
     }
     //end of getFacilities
+
     public function getTut(Request $request)
     {
         $request->validate([
@@ -149,10 +172,12 @@ class HomeController extends Controller
         $tut = Tut::where('class', $request->name)->first();
         return $tut;
     }
+
     public function media()
     {
         return view('media');
     }
+
     public function emailToUs(Request $request)
     {
         mail('cambridge.edu.jo', $request->phone, $request->message);

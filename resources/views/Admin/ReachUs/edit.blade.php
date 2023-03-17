@@ -9,7 +9,11 @@
     @method('PUT')
      <div class="form-group">
         <label for="head">Head</label>
-        <input type="name" class="form-control mb-3" id="head" name="head"  placeholder="open in.." required value="{{$reachus->head}}">
+        <textarea type="name" class="form-control mb-3" id="head" name="head"  placeholder="open in.." required value="">{{$reachus->head}}</textarea>
+        <script type="text/javascript">
+            CKEDITOR.replace("head");
+        </script>
+
     </div>
     <div class="form-group">
         <label for="phone1">phone1</label>

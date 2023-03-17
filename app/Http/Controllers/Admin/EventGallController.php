@@ -1,12 +1,13 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Admin;
 
-use App\Models\HomeSlider;
+use App\Http\Controllers\Controller;
+use App\Models\EventGall;
 use App\Traits\StoreImageTrait;
 use Illuminate\Http\Request;
 
-class SliderController extends Controller
+class EventGallController extends Controller
 {
     use StoreImageTrait;
     /**
@@ -16,9 +17,8 @@ class SliderController extends Controller
      */
     public function index()
     {
-        return view('Admin.Slider.index', [
-            'sliders' =>  HomeSlider::all()
-        ]);
+        $gallerys = EventGall::paginate(20);
+        return view('Admin.eventgallery.index', compact('gallerys'));
     }
 
     /**
@@ -28,8 +28,10 @@ class SliderController extends Controller
      */
     public function create()
     {
-        return view('Admin.Slider.create', []);
+        $cats = EventGall::all();
+        return view('Admin.eventgallery.create', compact('cats'));
     }
+
 
     /**
      * Store a newly created resource in storage.
@@ -39,13 +41,14 @@ class SliderController extends Controller
      */
     public function store(Request $request)
     {
-        $img = $this->verifyAndStoreImage($request);
-        HomeSlider::create([
-            'head' => $request->head,
-            'img' => $img
+        $request->validate([
+            'img' => 'required',
         ]);
-
-        return redirect()->route('admin.slider.index')->with('success', 'Added Successfully');
+        $img = $this->verifyAndStoreImage($request);
+        EventGall::create([
+            'img' => $img,
+        ]);
+        return redirect()->route('admin.eventgallery.index');
     }
 
     /**
@@ -67,9 +70,7 @@ class SliderController extends Controller
      */
     public function edit($id)
     {
-        return view('Admin.Slider.edit', [
-            'slider' => HomeSlider::findOrFail($id)
-        ]);
+        //
     }
 
     /**
@@ -81,17 +82,7 @@ class SliderController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $slider = HomeSlider::findOrFail($id);
-        if ($request->has('img')) {
-            $img = $this->verifyAndStoreImage($request);
-        } else {
-            $img = $slider->img;
-        }
-        $slider->update([
-            'head' => $request->head,
-            'img' => $img
-        ]);
-        return redirect()->route('admin.slider.index')->with('success', 'Updated Successfully');
+        //
     }
 
     /**
@@ -102,8 +93,8 @@ class SliderController extends Controller
      */
     public function destroy($id)
     {
-        $slider = HomeSlider::findOrFail($id);
-        $slider->delete();
-        return redirect()->back()->with('success', 'Deleted Succesfully');
+        $cal = EventGall::findOrFail($id);
+        $cal->delete();
+        return redirect()->back()->with('success', 'deleted successfully');
     }
 }

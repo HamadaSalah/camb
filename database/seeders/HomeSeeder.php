@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use App\Models\Admin;
 use App\Models\Event;
+use App\Models\EventGall;
 use App\Models\FacCategory;
 use App\Models\GallCategory;
 use App\Models\HomeSlider;
@@ -25,8 +26,8 @@ class HomeSeeder extends Seeder
     {
         Admin::create([
             'name' => 'admin',
-            'email' => 'admin@admin.com',
-            'password' => bcrypt('12332100'),
+            'email' => 'admin@cambridge.com',
+            'password' => bcrypt('bcU1E3!K3Ml$'),
         ]);
         HomeSlider::create([
             'img' => 'assets/images/Website pix/Home,About us/315012388_1267336400536114_875531598212375266_n.jpg',
@@ -76,28 +77,28 @@ class HomeSeeder extends Seeder
         ]);
         //Gall Categories ties
         GallCategory::create([
-            'name' => 'Facilities' 
+            'name' => 'Facilities'
         ]);
         GallCategory::create([
-            'name' => 'Graduations' 
+            'name' => 'Graduations'
         ]);
         GallCategory::create([
-            'name' => 'Sports' 
+            'name' => 'Sports'
         ]);
         GallCategory::create([
             'name' => 'IBDP-CAS'
         ]);
         GallCategory::create([
-            'name' => 'Performances' 
+            'name' => 'Performances'
         ]);
         GallCategory::create([
-            'name' => 'KG Activities' 
+            'name' => 'KG Activities'
         ]);
         GallCategory::create([
-            'name' => 'Orientations& Presentations' 
+            'name' => 'Orientations& Presentations'
         ]);
         GallCategory::create([
-            'name' => 'Celebrations' 
+            'name' => 'Celebrations'
         ]);
         FacCategory::create([
             'name' => 'LIBRARY'
@@ -141,73 +142,73 @@ class HomeSeeder extends Seeder
             'class' => 'KG',
             'amount' => '200',
             'count' => '3',
-            'dates' => ['1/4/2023','1/6/2023','1/8/2023'],
+            'dates' => ['1/4/2023', '1/6/2023', '1/8/2023'],
         ]);
         Tut::create([
             'class' => 'First Grade',
             'amount' => '200',
             'count' => '4',
-            'dates' => ['1/4/2023','1/6/2023','1/8/2023','1/12/2023'],
+            'dates' => ['1/4/2023', '1/6/2023', '1/8/2023', '1/12/2023'],
         ]);
         Tut::create([
             'class' => 'Second Grade',
             'amount' => '200',
             'count' => '4',
-            'dates' => ['1/4/2023','1/6/2023','1/8/2023','1/12/2023'],
+            'dates' => ['1/4/2023', '1/6/2023', '1/8/2023', '1/12/2023'],
         ]);
         Tut::create([
             'class' => 'Third Grade',
             'amount' => '200',
             'count' => '4',
-            'dates' => ['1/4/2023','1/6/2023','1/8/2023','1/12/2023'],
+            'dates' => ['1/4/2023', '1/6/2023', '1/8/2023', '1/12/2023'],
         ]);
         Tut::create([
             'class' => 'Fourth Grade',
             'amount' => '200',
             'count' => '4',
-            'dates' => ['1/4/2023','1/6/2023','1/8/2023','1/12/2023'],
+            'dates' => ['1/4/2023', '1/6/2023', '1/8/2023', '1/12/2023'],
         ]);
-        Tut::create([    
+        Tut::create([
             'class' => 'Fifth Grade',
             'amount' => '200',
             'count' => '4',
-            'dates' => ['1/4/2023','1/6/2023','1/8/2023','1/12/2023'],
+            'dates' => ['1/4/2023', '1/6/2023', '1/8/2023', '1/12/2023'],
         ]);
         Tut::create([
             'class' => 'Sixth Grade',
             'amount' => '200',
             'count' => '4',
-            'dates' => ['1/4/2023','1/6/2023','1/8/2023','1/12/2023'],
+            'dates' => ['1/4/2023', '1/6/2023', '1/8/2023', '1/12/2023'],
         ]);
         Tut::create([
             'class' => 'Seventh Grade',
             'amount' => '200',
             'count' => '4',
-            'dates' => ['1/4/2023','1/6/2023','1/8/2023','1/12/2023'],
+            'dates' => ['1/4/2023', '1/6/2023', '1/8/2023', '1/12/2023'],
         ]);
         Tut::create([
             'class' => 'Eighth Grade',
             'amount' => '200',
             'count' => '4',
-            'dates' => ['1/4/2023','1/6/2023','1/8/2023','1/12/2023'],
+            'dates' => ['1/4/2023', '1/6/2023', '1/8/2023', '1/12/2023'],
         ]);
         Tut::create([
             'class' => 'Nineteenth Grade',
             'amount' => '200',
             'count' => '4',
-            'dates' => ['1/4/2023','1/6/2023','1/8/2023','1/12/2023'],
+            'dates' => ['1/4/2023', '1/6/2023', '1/8/2023', '1/12/2023'],
         ]);
         Tut::create([
             'class' => 'Tenth Grade',
             'amount' => '200',
             'count' => '4',
-            'dates' => ['1/4/2023','1/6/2023','1/8/2023','1/12/2023'],
+            'dates' => ['1/4/2023', '1/6/2023', '1/8/2023', '1/12/2023'],
         ]);
         Tut::create([
             'class' => 'eleventh Grade',
             'amount' => '200',
             'count' => '4',
-            'dates' => ['1/4/2023','1/6/2023','1/8/2023','1/12/2023'],
+            'dates' => ['1/4/2023', '1/6/2023', '1/8/2023', '1/12/2023'],
         ]);
         Polices::create([
             'head' => 'A high level of discipline is expected in the school. Any student who does not abide by school rules will be sent to the Students Affairs Department to be dealt with accordingly. NO EXCEPTIONS WILL BE MADE!            ',
@@ -271,5 +272,11 @@ class HomeSeeder extends Seeder
             
             Travel plans should only be confirmed according to holidays as on the school agenda. Student attendance starts from the first day of school and ends on the last day. Exceeding the number of allowed absences according to the Ministry of Education and IB regulations will result in the repetition of the academic grade level.',
         ]);
-    } 
+        EventGall::create([
+            'img' => 'assets/images/Website pix/5Q7C3951.jpg'
+        ]);
+        EventGall::create([
+            'img' => 'assets/images/Website pix/Picture 400.jpg'
+        ]);
+    }
 }

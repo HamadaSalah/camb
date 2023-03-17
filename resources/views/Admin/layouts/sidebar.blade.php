@@ -18,6 +18,12 @@
                             <p>Events</p>
                         </a>
                     </li>
+                    <li class="{{ Request::segment(2) == 'eventgallery' ? 'active' : null }}">
+                        <a class="nav-link" href="{{route('admin.eventgallery.index')}}">
+                            <i class="nc-icon nc-notification-70"></i>
+                            <p>Events Images</p>
+                        </a>
+                    </li>
                     <li class="{{ Request::segment(2) == 'calender' ? 'active' : null }}">
                         <a class="nav-link" href="{{route('admin.calender.index')}}">
                             <i class="nc-icon nc-single-copy-04"></i>
@@ -36,12 +42,12 @@
                             <p>Gallery</p>
                         </a>
                     </li>
-                    <li class="{{ Request::segment(2) == 'facil' ? 'active' : null }}">
+                    {{-- <li class="{{ Request::segment(2) == 'facil' ? 'active' : null }}">
                         <a class="nav-link" href="{{route('admin.facil.index')}}">
                             <i class="nc-icon nc-album-2"></i>
                             <p>Facilities</p>
                         </a>
-                    </li>
+                    </li> --}}
                     <li class="{{ Request::segment(2) == 'welcome' ? 'active' : null }}">
                         <a class="nav-link" href="{{route('admin.welcome.index')}}">
                             <i class="nc-icon nc-align-center"></i>

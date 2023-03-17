@@ -10,6 +10,10 @@
     <div class="form-group">
         <label for="head">Head</label>
         <textarea type="name" class="form-control mb-3" id="head" name="head"  placeholder="open in.." required  >{!!$police->head!!}</textarea>
+        <script type="text/javascript">
+            CKEDITOR.replace("head");
+        </script>
+
     </div>
     <div class="form-group">
         <label for="img">Head IMG</label>
@@ -27,6 +31,10 @@
     <div class="form-group">
         <label for="f_p">First Paragraph</label>
         <textarea type="text" class="form-control mb-3" id="f_p" name="f_p"  placeholder="open in.." required >{!!$police->f_p!!}</textarea>
+        <script type="text/javascript">
+            CKEDITOR.replace("f_p");
+        </script>
+
     </div>
 
     <br>
@@ -35,6 +43,10 @@
     <div class="form-group">
         <label for="second_p">Second Paragraph</label>
         <textarea type="name" class="form-control mb-3" id="second_p" name="second_p"  placeholder="open in.." required  >{!!$police->second_p!!}</textarea>
+        <script type="text/javascript">
+            CKEDITOR.replace("second_p");
+        </script>
+
     </div>
 
     <br>
@@ -48,6 +60,10 @@
     <div class="form-group">
         <label for="third_p">3rd Paragarph</label>
         <textarea type="name" class="form-control mb-3" id="third_p" name="third_p"  placeholder="open in.." required  >{!!$police->third_p!!}</textarea>
+        <script type="text/javascript">
+            CKEDITOR.replace("third_p");
+        </script>
+
     </div>
 
     <br>
@@ -61,11 +77,19 @@
     <div class="form-group">
         <label for="parent_h">Parentrs Head</label>
         <textarea type="name" class="form-control mb-3" id="parent_h" name="parent_h"  placeholder="open in.." required  >{!!$police->parent_h!!}</textarea>
+        <script type="text/javascript">
+            CKEDITOR.replace("parent_h");
+        </script>
+
     </div>
 
     <div class="form-group">
         <label for="parent_p">Parentrs Paragraph</label>
         <textarea type="name" class="form-control mb-3" id="parent_p" name="parent_p"  placeholder="open in.." required  >{!!$police->parent_p!!}</textarea>
+        <script type="text/javascript">
+            CKEDITOR.replace("parent_p");
+        </script>
+
     </div>
 
     <br>
@@ -77,16 +101,8 @@
     <button type="submit" class="btn btn-primary">Submit</button>
   </form>
 
-@push("custom-css")
-<style>
-    textarea {
-        min-height: 120px
-    }
-</style>
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
-<link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+  @push("styles")
 
-@endpush
-@endsection
+  <script src="https://cdn.ckeditor.com/4.20.2/standard/ckeditor.js"></script>
+  @endpush
+  @endsection

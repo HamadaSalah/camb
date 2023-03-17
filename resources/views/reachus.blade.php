@@ -9,7 +9,7 @@
                         <div class="text-container padding-start ps-0 ps-md-5 ps-lg-5 ps-xl-5 ps-xxl-5 py-5 text-center text-md-start text-lg-start rechp">
                             <h2 class="text-capitalize fw-bold pb-4">reach us</h2>
                             <p class="ps-2 pe-2 pe-md-5 pe-lg-5 Open_Sans_font text-center text-md-start text-lg-start">
-                                {{$reachus->head}}
+                                {!!$reachus->head!!}
                             </p>
                         </div>
                         <div class="main_color_bg w-25 shape-line">
@@ -27,7 +27,7 @@
                         <div class="col-12 col-md-6 col-lg-3">
                         </div>
                         <div class="col-12 col-md-6 col-lg-3">
-                            <img src="{{asset($reachus->f_img)}}" alt="" class="img-fluid rounded-3 mt-4">
+                            <img src="{!!asset($reachus->f_img)!!}" alt="" class="img-fluid rounded-3 mt-4">
                         </div>
                         <div class="col-12 col-md-6 col-lg-3">
                             <img src="assets/images/Website pix/Reach us/001 (3).jpg" alt=""
@@ -39,17 +39,17 @@
                     <div class="px-3 py-4 w-content-75 white_bg rounded-3 mt-5 addresses">
                         <div class="text-container padding-start ps-0 ps-md-5 ps-lg-5 ps-xl-5 ps-xxl-5 text-center text-md-start text-lg-start">
                             <h2 class="text-capitalize mb-3">CALL US , VISIT US, EMIL US</h2>
-                            <a class="Open_Sans_font pb-1"  href="mailto:{{$reachus->email}}"><p
+                            <a class="Open_Sans_font pb-1"  href="mailto:{!!$reachus->email!!}"><p
                                     class="ps-2 w-content-50 Open_Sans_font text-center text-md-start text-lg-start m-0">
-                                {{$reachus->email}}</p></a>
+                                {!!$reachus->email!!}</p></a>
                             <p class="ps-2 w-content-50 m-0 pb-1 Open_Sans_font text-center text-md-start text-lg-start">
                                 Amman - Al Rabia- Abdalkareem Al Dabbas St.
                             </p>
                             <p class="ps-2 w-content-50 m-0 pb-1 Open_Sans_font text-center text-md-start text-lg-start">
-                                {{$reachus->phone1}}
+                                {!!$reachus->phone1!!}
                             </p>
                             <p class="ps-2 w-content-50 m-0 pb-1 Open_Sans_font text-center text-md-start text-lg-start">
-                                {{$reachus->phone2}}
+                                {!!$reachus->phone2!!}
                             </p>
                             <a class="Open_Sans_font pb-1" href="#"><p
                                     class="ps-2 w-content-50 Open_Sans_font text-center text-md-start text-lg-start m-0">
@@ -69,7 +69,7 @@
                 <div class="col-12 col-md-12 col-lg-6 mt-4">
                     <div class="row h-100 misimg">
                         <div class="col-6">
-                            <img src="{{asset($reachus->l_img)}}" alt=""
+                            <img src="{!!asset($reachus->l_img)!!}" alt=""
                                  class="h-100 rounded-3">
                         </div>
                         <div class="col-6">
@@ -86,7 +86,7 @@
                         It is the mission of the Admission Committee to
                         recruit, inform and admit new, qualified students
                     </p>
-                    <form class="Open_Sans_font" method="POST" action="{{route('emailToUs')}}">
+                    <form class="Open_Sans_font" method="POST" action="{!!route('emailToUs')!!}">
                         @csrf
                         <div class="mb-2">
                             <label for="Name" class="form-label Open_Sans_font fs-7 m-0">Name</label>

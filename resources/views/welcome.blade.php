@@ -13,9 +13,9 @@
                 <div class="px-3 py-4 w-content-75 light_gray_bg rounded-3 mt-5">
                     <div class="text-container padding-start ps-0 ps-md-5 ps-lg-5 ps-xl-5 ps-xxl-5 text-center text-md-start text-lg-start">
                         <h2 class="text-capitalize first_color">Cambridge High School</h2>
-                        <h3 class="">{{$welcome->open_in}}</h3>
+                        <h3 class="">{!!$welcome->open_in!!}</h3>
                         <p class="ps-2 w-content-50 Open_Sans_font fw-semibold text-center text-md-start text-lg-start">
-                            {{$welcome->desc}}
+                            {!!$welcome->desc!!}
                         </p>
                     </div>
                 </div>
@@ -27,7 +27,7 @@
                     <div class="col-12 col-md-6 col-lg-3">
                     </div>
                     <div class="col-12 col-md-6 col-lg-3">
-                        <img src="{{asset($welcome->img)}}" alt=""
+                        <img src="{!!asset($welcome->img)!!}" alt=""
                              class="img-fluid rounded-3 mt-4">
                     </div>
                     <div class="col-12 col-md-6 col-lg-3">
@@ -42,7 +42,7 @@
     <div class="container mb-5">
         <div class="row align-items-center flex-column-reverse flex-md-column-reverse flex-lg-row flex-xl-row flex-xxl-row mt-5">
             <div class="col-12 col-md-12 col-lg-6 mt-4">
-                <img src="{{asset($welcome->his_img)}}" alt="" class="img-fluid rounded-3">
+                <img src="{!!asset($welcome->his_img)!!}" alt="" class="img-fluid rounded-3">
             </div>
             <div class="col-12 col-md-12 col-lg-6 mt-4 historydiv">
                 <h3 class="pb-3">Some of our</h3>
@@ -50,7 +50,7 @@
                     history
                 </h2>
                 <p class="pb-3 lh-lg m-0">
-                    {{$welcome->his_desc}}
+                    {!!$welcome->his_desc!!}
                 </p>
                  
                 <div class="d-flex justify-content-end me-5">
@@ -67,7 +67,7 @@
                 <div class="col-12 col-md-12 col-lg-6 mt-4">
                     <div class="row h-100 misimg">
                         <div class="col-12">
-                            <img src="{{asset($welcome->mis_img)}}" alt=""
+                            <img src="{!!asset($welcome->mis_img)!!}" alt=""
                                  class="h-100 rounded-3">
                         </div>
                     </div>
@@ -75,10 +75,10 @@
                 <div class="col-12 col-md-12 col-lg-6 mt-4 missiondiv">
                     <h3 class="pb-3">Our</h3>
                     <h2 class="pb-4 first_color text-uppercase">
-                        mission
+                         Statement mission
                     </h2>
                     <p class="pb-3 lh-lg m-0">
-                        {{$welcome->mis_desc}}
+                        {!!$welcome->mis_desc!!}
                     </p>
                 </div>
             </div>
@@ -88,7 +88,7 @@
     <div class="container mb-5">
         <div class="row flex-column-reverse flex-md-column-reverse flex-lg-row flex-xl-row flex-xxl-row mt-5">
             <div class="col-12 col-md-12 col-lg-6 mt-4">
-                <img src="{{asset($welcome->vis_img)}}" alt="" class="img-fluid rounded-3">
+                <img src="{!!asset($welcome->vis_img)!!}" alt="" class="img-fluid rounded-3">
             </div>
             <div class="col-12 col-md-12 col-lg-6 mt-4 visiondiv">
                 <h3 class="pb-3">Our</h3>
@@ -96,7 +96,7 @@
                     vision
                 </h2>
                 <p class="pb-3 lh-lg m-0">
-                    {{$welcome->vis_desc}}
+                    {!!$welcome->vis_desc!!}
                 </p>
                 <div class="d-flex justify-content-between align-items-center me-0 me-md-5 me-lg-5">
                     <p class="fw-semibold m-0">Become Part of our Family!</p>
