@@ -76,15 +76,14 @@
                             class="d-flex flex-column gap-1 w_mega white_bg rounded-3 align-items-start px-1 py-1 ms-3 _borders">
                             <a class="fs-7 py-1 px-2 w-100 rounded-2 hover_btn _borders " href="{{route('schoolPolice')}}">school police</a>
                             <a class="fs-7 py-1 px-2 w-100 rounded-2 hover_btn _borders " href="{{route('tuitionFees')}}">tuition fees</a>
-                            <a class="fs-7 py-1 px-2 w-100 rounded-2 hover_btn _borders " href="{{route('applyNow')}}">apply now</a>
                         </div>
                     </li>
                     <li class="mega_res mb-3 d-flex flex-column">
                         <a class="fs-7 px-2 py-1 mb-2 w-fit rounded-2 btn_anim_res _borders" href="programmes.html">programmes</a>
                         <div
                             class="d-flex flex-column gap-1 w_mega white_bg rounded-3 align-items-start px-1 py-1 ms-3 _borders">
-                            <a class="fs-7 py-1 px-2 w-100 rounded-2 hover_btn _borders " href="{{route('primary')}}">primary</a>
                             <a class="fs-7 py-1 px-2 w-100 rounded-2 hover_btn _borders " href="{{route('KG')}}">kindergarten</a>
+                            <a class="fs-7 py-1 px-2 w-100 rounded-2 hover_btn _borders " href="{{route('primary')}}">primary</a>
                             <a class="fs-7 py-1 px-2 w-100 rounded-2 hover_btn _borders " href="{{route('MYP')}}">myp</a>
                             <a class="fs-7 py-1 px-2 w-100 rounded-2 hover_btn _borders " href="{{route('IBDP')}}">ibdp</a>
                             <a class="fs-7 py-1 px-2 w-100 rounded-2 hover_btn _borders " href="{{route('CAS')}}">cas</a>
@@ -98,7 +97,6 @@
                         <div
                             class="d-flex flex-column gap-1 w_mega white_bg rounded-3 align-items-start px-1 py-1 ms-3 _borders">
                             <a class="fs-7 py-1 px-2 w-100 rounded-2 hover_btn _borders " href="{{route('gallery')}}">gallery</a>
-                            <a class="fs-7 py-1 px-2 w-100 rounded-2 hover_btn _borders " href="{{route('facilities')}}">facilities</a>
                         </div>
                     </li>
                 </ul>
