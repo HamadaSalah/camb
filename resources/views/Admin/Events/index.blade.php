@@ -31,6 +31,10 @@
                             @method('DELETE')
                             <button class="btn btn-danger" type="submit"><i class="fa fa-trash"></i> Delete</button>
                         </form>
+                        <a href="{{Route('admin.events.edit', $event->id)}} ">
+                            <button class="btn btn-primary"><i class="fa fa-pencil-square-o"></i> Edit</button>
+                        </a>
+
                     </td>
 
                 </tr>

@@ -70,7 +70,8 @@ class EventsController extends Controller
      */
     public function edit($id)
     {
-        //
+        $event = Event::findOrFail($id);
+        return view('Admin.Events.edit', compact('event'));
     }
 
     /**
@@ -82,7 +83,10 @@ class EventsController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $requestData = $request->only('date', 'title', 'example');
+        $event = Event::findOrFail($id);
+        $event->update($requestData);
+        return redirect()->route('admin.events.index')->with('success', 'updated successfully');
     }
 
     /**
