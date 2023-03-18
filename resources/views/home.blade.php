@@ -20,6 +20,15 @@
                                                 {!!$slider->head!!}
                                             </p>
                                         </div>
+                                        <button class="adw" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                                            <i class="fa fa-arrow-circle-left" aria-hidden="true"></i>
+
+                                          </button>
+                                          <button class="dwa" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                                            <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+
+                                          </button>
+                                  
                                 </div>
                             </div>
                             <div class="col-12 col-md-6 col-lg-6 d-flex justify-content-center">
@@ -32,14 +41,6 @@
                 
             @endforeach
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
 </div>
 

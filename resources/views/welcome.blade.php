@@ -26,12 +26,8 @@
                     </div>
                     <div class="col-12 col-md-6 col-lg-3">
                     </div>
-                    <div class="col-12 col-md-6 col-lg-3">
+                    <div class="col-12 col-md-12 col-lg-4">
                         <img src="{!!asset($welcome->img)!!}" alt=""
-                             class="img-fluid rounded-3 mt-4">
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-3">
-                        <img src="assets/images/Website pix/Home,About us/5Q7C1255.jpg" alt=""
                              class="img-fluid rounded-3 mt-4">
                     </div>
                 </div>

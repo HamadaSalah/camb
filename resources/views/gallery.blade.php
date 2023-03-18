@@ -18,7 +18,7 @@
         <div class="rotate-dev">
             <div class="row justify-content-center align-items-center">
                 <div class="col-12 col-md-4 col-lg-4 p-0 w-auto">
-                        <a href="{{route('getGallery', 1)}}">
+                        <a href="{{route('facilities')}}">
                         <div class="gallery z-n1">
                             <div class="gallery_border">
                                 <div class="link-address text-center Open_Sans_font">

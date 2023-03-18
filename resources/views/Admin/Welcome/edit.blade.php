@@ -18,7 +18,7 @@
     </div>
     <div class="form-group">
         <label for="desc">Desc</label>
-        <textarea type="name" class="form-control mb-3" id="desc" name="desc"  placeholder="open in.." required value="">{{$welcome->open_in}}</textarea>
+        <textarea type="name" class="form-control mb-3" id="desc" name="desc"  placeholder="open in.." required value="">{{$welcome->desc}}</textarea>
         <script type="text/javascript">
             CKEDITOR.replace("desc");
         </script>

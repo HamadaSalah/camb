@@ -123,7 +123,22 @@ footer .fa {
 .shape-line {
     display: none!important;
 }
-
+.carousel-control-prev-icon {
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+}
+.dwa, .adw{
+    font-size: 20px;
+    background: transparent;
+    border: 0;
+}
+.fa.fa-arrow-circle-left, .fa.fa-arrow-circle-right{
+    background: transparent;
+    border: 0;
+    color: #b11e24;
+    font-size: 30px;
+ }
 @media screen and (max-width: 798px) {
     .misimg img {
         height: unset!important;

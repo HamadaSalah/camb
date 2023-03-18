@@ -26,12 +26,8 @@
                         </div>
                         <div class="col-12 col-md-6 col-lg-3">
                         </div>
-                        <div class="col-12 col-md-6 col-lg-3">
+                        <div class="col-12 col-md-12 col-lg-4">
                             <img src="{!!asset($reachus->f_img)!!}" alt="" class="img-fluid rounded-3 mt-4">
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-3">
-                            <img src="assets/images/Website pix/Reach us/001 (3).jpg" alt=""
-                                 class="img-fluid rounded-3 mt-4">
                         </div>
                     </div>
                 </div>

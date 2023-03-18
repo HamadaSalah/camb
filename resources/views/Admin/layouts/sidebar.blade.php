@@ -42,12 +42,12 @@
                             <p>Gallery</p>
                         </a>
                     </li>
-                    {{-- <li class="{{ Request::segment(2) == 'facil' ? 'active' : null }}">
+                    <li class="{{ Request::segment(2) == 'facil' ? 'active' : null }}">
                         <a class="nav-link" href="{{route('admin.facil.index')}}">
                             <i class="nc-icon nc-album-2"></i>
                             <p>Facilities</p>
                         </a>
-                    </li> --}}
+                    </li>
                     <li class="{{ Request::segment(2) == 'welcome' ? 'active' : null }}">
                         <a class="nav-link" href="{{route('admin.welcome.index')}}">
                             <i class="nc-icon nc-align-center"></i>

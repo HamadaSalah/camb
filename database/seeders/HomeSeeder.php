@@ -139,7 +139,19 @@ class HomeSeeder extends Seeder
             'l_img' => 'assets/images/Website pix/Reach us/5Q7C0597.jpg',
         ]);
         Tut::create([
-            'class' => 'KG',
+            'class' => 'KG1',
+            'amount' => '200',
+            'count' => '3',
+            'dates' => ['1/4/2023', '1/6/2023', '1/8/2023'],
+        ]);
+        Tut::create([
+            'class' => 'KG*',
+            'amount' => '200',
+            'count' => '3',
+            'dates' => ['1/4/2023', '1/6/2023', '1/8/2023'],
+        ]);
+        Tut::create([
+            'class' => 'KG2',
             'amount' => '200',
             'count' => '3',
             'dates' => ['1/4/2023', '1/6/2023', '1/8/2023'],
