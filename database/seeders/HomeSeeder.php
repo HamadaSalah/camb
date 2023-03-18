@@ -27,7 +27,7 @@ class HomeSeeder extends Seeder
         Admin::create([
             'name' => 'admin',
             'email' => 'admin@cambridge.com',
-            'password' => bcrypt('bcU1E3!K3Ml$'),
+            'password' => bcrypt('cambridgeAdmin'),
         ]);
         HomeSlider::create([
             'img' => 'assets/images/Website pix/Home,About us/315012388_1267336400536114_875531598212375266_n.jpg',
