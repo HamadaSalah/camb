@@ -180,7 +180,7 @@ class HomeController extends Controller
 
     public function emailToUs(Request $request)
     {
-        mail('cambridge.edu.jo', $request->phone, $request->message);
+        mail('cambridge@cambridge.edu.jo', $request->phone, $request->message);
         return redirect()->route('index');
     }
 }
