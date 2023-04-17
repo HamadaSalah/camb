@@ -21,9 +21,7 @@
             <div class="col-12 col-md-12 col-lg-12 d-flex flex-column flex-md-row flex-lg-row align-items-center justify-content-between mb-4">
                 <div class="img-content">
                     <img src="/assets/images/Logo-Rad.png" alt="" class="imf-fluid media-width">
-                    <div style="height: 0.15rem;" class="main_color_bg rounded-pill mt-3 media-width">
-                    </div>
-                </div>
+                 </div>
                 <div class="text-content">
                     <div class="text-center mt-4 mt-md-0 mt-lg-0">
                         <h4 class="text-dark m-0 fs-3 Open_Sans_font">
@@ -41,8 +39,6 @@
             <div class="col-12 col-md-12 col-lg-12 d-flex flex-column flex-md-row flex-lg-row align-items-center justify-content-between mb-4">
                 <div class="img-content">
                     <img src="/assets/images/IBDP.png" alt="" class="imf-fluid media-width" style="width: 300px">
-                    <div style="height: 0.15rem;" class="main_color_bg rounded-pill mt-3 media-width">
-                    </div>
                 </div>
                 <div class="text-content">
                     <div class="text-center mt-4 mt-md-0 mt-lg-0">
@@ -60,8 +56,6 @@
             <div class="col-12 col-md-12 col-lg-12 d-flex flex-column flex-md-row flex-lg-row align-items-center justify-content-between mb-4">
                 <div class="img-content">
                     <img src="/assets/images/sc.png" alt="" class="imf-fluid media-width">
-                    <div style="height: 0.15rem;" class="main_color_bg rounded-pill mt-3 media-width">
-                    </div>
                 </div>
                 <div class="text-content">
                     <div class="text-center mt-4 mt-md-0 mt-lg-0">

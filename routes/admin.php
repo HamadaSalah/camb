@@ -6,8 +6,10 @@ use App\Http\Controllers\Admin\EventGallController;
 use App\Http\Controllers\Admin\EventsController;
 use App\Http\Controllers\Admin\FacilController;
 use App\Http\Controllers\Admin\GalleryController;
+use App\Http\Controllers\Admin\KGController;
 use App\Http\Controllers\Admin\LoginController;
 use App\Http\Controllers\Admin\PolicesController;
+use App\Http\Controllers\Admin\PrimaryController;
 use App\Http\Controllers\Admin\ReachUsController;
 use App\Http\Controllers\Admin\VideosController;
 use App\Http\Controllers\Admin\WelcomeController;
@@ -41,4 +43,6 @@ Route::prefix('admin')->middleware('auth:admin')->name('admin.')->group(function
     Route::resource('/class', ClassController::class);
     Route::resource('/police', PolicesController::class);
     Route::resource('/eventgallery', EventGallController::class);
+    Route::resource('/kg', KGController::class);
+    Route::resource('/primary', PrimaryController::class);
 });

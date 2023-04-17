@@ -13,6 +13,14 @@
         <input type="file" class="form-control" id="img" name="img"  placeholder="Write Body..">
     </div>
     <div class="form-group">
+        <label for="name">top head</label>
+        <textarea type="name" class="form-control mb-3" id="name" name="top_head"  placeholder="Write top_head.." value="">{!!$slider->top_head!!}</textarea>
+        <script type="text/javascript">
+            CKEDITOR.replace("top_head");
+        </script>
+        
+     </div>
+     <div class="form-group">
         <label for="name">Head</label>
         <textarea type="name" class="form-control mb-3" id="name" name="head"  placeholder="Write Head.." value="">{!!$slider->head!!}</textarea>
         <script type="text/javascript">
@@ -20,12 +28,26 @@
         </script>
         
      </div>
- 
+     <textarea name="editor"></textarea>
+    <script>
+        ClassicEditor
+            .create( document.querySelector( 'textarea[name="editor"]' ), {
+                toolbar: [ 'heading', '|', 'bold', 'italic', 'underline', 'link', 'bulletedList', 'numberedList', 'blockQuote', 'undo', 'redo', 'fontColor', 'fontBackgroundColor' ]
+            } )
+            .then( editor => {
+                console.log( editor );
+            } )
+            .catch( error => {
+                console.error( error );
+            } );
+    </script>
+
  
     <button type="submit" class="btn btn-primary">Submit</button>
   </form>
 
 @push("styles")
-<script src="https://cdn.ckeditor.com/4.20.2/standard/ckeditor.js"></script>
-@endpush
+<script src="https://cdn.ckeditor.com/ckeditor5/30.1.0/classic/ckeditor.js"></script>
+
+<script src="https://cdn.ckeditor.com/ckeditor5/37.0.1/classic/ckeditor.js"></script>@endpush
 @endsection

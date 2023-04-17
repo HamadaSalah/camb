@@ -11,6 +11,14 @@
         <input type="file" class="form-control" id="img" name="img"  placeholder="Write Body.." required>
     </div>
     <div class="form-group">
+        <label for="name">top head</label>
+        <textarea type="name" class="form-control" id="name" name="top_head"  placeholder="Write top_head.." required></textarea>
+        <script type="text/javascript">
+            CKEDITOR.replace("top_head");
+        </script>
+
+    </div>
+    <div class="form-group">
         <label for="name">Head</label>
         <textarea type="name" class="form-control" id="name" name="head"  placeholder="Write Head.." required></textarea>
         <script type="text/javascript">

@@ -64,14 +64,17 @@
             <div class="row flex-column-reverse flex-md-column-reverse flex-lg-row-reverse flex-xl-row-reverse flex-xxl-row-reverse mt-5">
                 <div class="col-12 col-md-12 col-lg-6 mt-4">
                     <div class="row h-100 misimg">
-                        <div class="col-6">
-                            <img src="{!!asset($reachus->l_img)!!}" alt=""
+                        <div class="col-12">
+                            <img src="{!!asset($reachus->l_img)!!}" alt="" style="height: 550px!important;
+                            margin: auto;
+                            text-align: center;
+                            display: block;"
                                  class="h-100 rounded-3">
                         </div>
-                        <div class="col-6">
+                        {{-- <div class="col-6">
                             <img src="assets/images/Website pix/Reach us/5Q7C4503.jpg" alt=""
                                  class="h-100 rounded-3">
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <div class="col-12 col-md-12 col-lg-6 mt-4">

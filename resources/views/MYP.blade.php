@@ -9,7 +9,7 @@
         <div class="container">
             <div class="row justify-content-end">
                 <div class="col-12 col-md-6 col-lg-3">
-                    <img src="assets/images/IBDP.png" alt="" class="img-fluid rounded-3">
+                    {{-- <img src="assets/images/IBDP.png" alt="" class="img-fluid rounded-3"> --}}
                 </div>
             </div>
         </div>
@@ -162,7 +162,7 @@
                 </p>
 
                 <div class="col-12 mt-4 misimg">
-                    <img src="assets/images/Website pix/MYP/267.jpg" alt="" class="h-50 w-100 rounded-3">
+                    <img src="assets/images/Website pix/MYP/267.jpg" alt="" style="width: 50%!important;display: block!important;margin: auto!important" class="h-50 w-100 rounded-3">
                 </div>
             </div>
         </div>
@@ -234,7 +234,7 @@
 
                     <div class="d-flex justify-content-end me-5 mt-5">
                         <a class="fs-7 py-1 px-4 first_color Open_Sans_font fw-bold text-capitalize rounded-2 hover_btn _borders "
-                           href="#">APPLY NOW</a>
+                           href="{{Route('applyNow')}}">APPLY NOW</a>
                     </div>
                 </div>
             </div>

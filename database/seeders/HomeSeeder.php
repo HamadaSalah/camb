@@ -30,6 +30,8 @@ class HomeSeeder extends Seeder
             'password' => bcrypt('cambridgeAdmin'),
         ]);
         HomeSlider::create([
+            'top_head' => 'CAMBRIDGE<br/>
+            HIGH SCHOOL',
             'img' => 'assets/images/Website pix/Home,About us/315012388_1267336400536114_875531598212375266_n.jpg',
             'head' => 'Cambridge High School is fully devoted to its
             students’ academic and future success. Through the
@@ -38,6 +40,8 @@ class HomeSeeder extends Seeder
             created to develop well-rounded, life-long learners.'
         ]);
         HomeSlider::create([
+            'top_head' => 'CAMBRIDGE<br/>
+            HIGH SCHOOL',
             'img' => 'assets/images/Website pix/Home,About us/315012388_1267336400536114_875531598212375266_n.jpg',
             'head' => 'Cambridge High School is fully devoted to its
             students’ academic and future success. Through the

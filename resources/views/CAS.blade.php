@@ -7,7 +7,7 @@
             <div class="container position-relative position-diploma-cas">
                 <div class="row justify-content-end pt-4">
                     <div class="col-12 col-md-3 col-lg-2 me-0 me-lg-5">
-                        <img src="assets/images/IBDP.png" alt="" class="img-fluid rounded-3">
+                        {{-- <img src="assets/images/IBDP.png" alt="" class="img-fluid rounded-3"> --}}
                     </div>
                 </div>
             </div>
@@ -193,7 +193,7 @@
                 </p>
 
                 <div class="col-12 mt-4">
-                    <img src="assets/images/Website pix/MYP/267.jpg" alt="" class="h-50 w-100 rounded-3">
+                    <img src="assets/images/Website pix/MYP/267.jpg" alt="" class="h-50 w-100 rounded-3" style="width: 50%!important;display: block!important;margin: auto!important">
                 </div>
             </div>
         </div>

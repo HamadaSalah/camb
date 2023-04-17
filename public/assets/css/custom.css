@@ -120,6 +120,12 @@ footer .fa {
 .f_slider p {
     font-size: 21px;font-family: 'Open Sans', sans-serif;
 }
+.f_slider h1 {
+    color: #b11e24;
+}
+.primary_page p {
+    font-family: 'Open Sans', sans-serif;
+}
 .shape-line {
     display: none!important;
 }
@@ -139,6 +145,27 @@ footer .fa {
     color: #b11e24;
     font-size: 30px;
  }
+ .media-width {
+    width: 300px;
+    margin-bottom: 20px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 798px) {
     .misimg img {
         height: unset!important;

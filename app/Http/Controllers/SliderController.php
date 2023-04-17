@@ -41,6 +41,7 @@ class SliderController extends Controller
     {
         $img = $this->verifyAndStoreImage($request);
         HomeSlider::create([
+            'top_head' => $request->top_head,
             'head' => $request->head,
             'img' => $img
         ]);
@@ -88,6 +89,8 @@ class SliderController extends Controller
             $img = $slider->img;
         }
         $slider->update([
+            'top_head' => $request->top_head,
+
             'head' => $request->head,
             'img' => $img
         ]);

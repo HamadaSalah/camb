@@ -8,6 +8,7 @@ use App\Models\EventGall;
 use App\Models\Facil;
 use App\Models\Gallery;
 use App\Models\HomeSlider;
+use App\Models\KG;
 use App\Models\Polices;
 use App\Models\ReachUs;
 use App\Models\Tut;
@@ -99,7 +100,8 @@ class HomeController extends Controller
 
     public function KG()
     {
-        return view('KG');
+        $kg = KG::first();
+        return view('KG', compact('kg'));
     }
     //end of KG
 

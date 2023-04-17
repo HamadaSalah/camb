@@ -74,6 +74,19 @@
                             <p>School Polices</p>
                         </a>
                     </li>
+                    <li class="{{ Request::segment(2) == 'kg' ? 'active' : null }}">
+                        <a class="nav-link" href="{{route('admin.kg.index')}}">
+                            <i class="nc-icon nc-paper-2"></i>
+                            <p>KG Page</p>
+                        </a>
+                    </li>
+ 
+                    <li class="{{ Request::segment(2) == 'primary' ? 'active' : null }}">
+                        <a class="nav-link" href="{{route('admin.primary.index')}}">
+                            <i class="nc-icon nc-paper-2"></i>
+                            <p>PRIMARY Page</p>
+                        </a>
+                    </li>
  
  
                     {{-- <li class="{{ Request::segment(2) == 'News' ? 'active' : null }} dropparent">

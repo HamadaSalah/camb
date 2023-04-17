@@ -13,17 +13,23 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('primaries', function (Blueprint $table) {
+        Schema::create('k_g_s', function (Blueprint $table) {
             $table->id();
-            $table->string('sec1_p')->nullable();
+            $table->longText('sec1_head')->nullable();
+            $table->longText('sec1_p')->nullable();
             $table->string('sec1_img')->nullable();
 
-            $table->string('sec2_p')->nullable();
-            $table->string('sec2_p2')->nullable();
+            $table->longText('sec2_head')->nullable();
+            $table->longText('sec2_p')->nullable();
             $table->string('sec2_img')->nullable();
 
-            $table->string('sec3_p')->nullable();
+            $table->longText('sec3_head')->nullable();
+            $table->longText('sec3_p')->nullable();
             $table->string('sec3_img')->nullable();
+
+            $table->longText('sec4_head')->nullable();
+            $table->longText('sec4_p')->nullable();
+            $table->string('sec4_img')->nullable();
 
             $table->timestamps();
         });
@@ -36,6 +42,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('primaries');
+        Schema::dropIfExists('k_g_s');
     }
 };

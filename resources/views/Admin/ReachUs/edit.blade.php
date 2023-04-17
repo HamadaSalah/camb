@@ -51,4 +51,8 @@
 <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
 
 @endpush
+@push("styles")
+<script src="https://cdn.ckeditor.com/4.20.2/standard/ckeditor.js"></script>
+@endpush
+
 @endsection

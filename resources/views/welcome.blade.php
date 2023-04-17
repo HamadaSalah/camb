@@ -51,7 +51,7 @@
                  
                 <div class="d-flex justify-content-end me-5">
                     <a class="fs-7 py-1 px-4 first_color Open_Sans_font fw-bold text-capitalize rounded-2 hover_btn _borders "
-                       href="#">Apply Now</a>
+                       href="{{Route('applyNow')}}">Apply Now</a>
                 </div>
             </div>
         </div>
@@ -97,7 +97,7 @@
                 <div class="d-flex justify-content-between align-items-center me-0 me-md-5 me-lg-5">
                     <p class="fw-semibold m-0">Become Part of our Family!</p>
                     <a class="fs-7 py-1 px-4 first_color Open_Sans_font fw-bold text-capitalize rounded-2 hover_btn _borders "
-                       href="#">Apply Now</a>
+                       href="{{Route('applyNow')}}">Apply Now</a>
                 </div>
             </div>
         </div>

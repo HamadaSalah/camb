@@ -10,11 +10,9 @@
                     <div class="container">
                         <div class="row align-items-center pt-5 mb-5">
                             <div class="col-12 col-md-6 col-lg-6">
-                                <h2 class="second_color pb-3 m-0">Welcome to</h2>
-                                <h1 class="text-uppercase display-4 fw-bold first_color pb-4 m-0">
-                                    Cambridge <br> high school
-                                </h1>
                                 <div class="  Open_Sans_font second_color  pb-3 m-0 f_slider">
+                                    <h5>{!! $slider->top_head!!}</h5>
+
                                         <div>
                                             <p class="pe-5 second_color " style="font-size: 21px;font-family: 'Open Sans', sans-serif;">
                                                 {!!$slider->head!!}
@@ -32,7 +30,7 @@
                                 </div>
                             </div>
                             <div class="col-12 col-md-6 col-lg-6 d-flex justify-content-center">
-                                <img class="w-75" src="{{asset($slider->img)}}" alt="">
+                                <img class="w-100" src="{{asset($slider->img)}}" alt="">
                             </div>
                         </div>
         
@@ -91,7 +89,7 @@
             <div class="col-12 col-md-12 col-lg-6">
                 <div class="your-class Open_Sans_font second_color pb-3 m-0">
                     @foreach ($eventgall as $item)
-                    <img class="rounded-2 h-100" src="{{asset($item->img)}}"
+                    <img class="rounded-2 h-100" style="height: 470px!important" src="{{asset($item->img)}}"
                     alt="Event Photo">
                     @endforeach
                 </div>
