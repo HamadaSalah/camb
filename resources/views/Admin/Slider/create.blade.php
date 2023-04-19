@@ -20,7 +20,7 @@
     </div>
     <div class="form-group">
         <label for="name">Head</label>
-        <textarea type="name" class="form-control" id="name" name="head"  placeholder="Write Head.." required></textarea>
+        <textarea style="color:red;" type="name" class="form-control" id="name" name="head"  placeholder="Write Head.." required></textarea>
         <script type="text/javascript">
             CKEDITOR.replace("head");
         </script>
