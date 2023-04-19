@@ -117,4 +117,7 @@
         </div>
     </div>
 </div>
+<div class="mymap">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3384.242000372957!2d35.879138499999996!3d31.9814546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151ca03651c4092b%3A0xa8e799573793cab7!2z2YXYr9ix2LPYqSDZg9in2YXYqNix2K_YrCDYp9mE2KvYp9mG2YjZitip!5e0!3m2!1sar!2sjo!4v1681909625777!5m2!1sar!2sjo" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
 @endsection
