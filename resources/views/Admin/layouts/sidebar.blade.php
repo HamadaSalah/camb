@@ -71,7 +71,7 @@
                     <li class="{{ Request::segment(2) == 'police' ? 'active' : null }}">
                         <a class="nav-link" href="{{route('admin.police.index')}}">
                             <i class="nc-icon nc-paper-2"></i>
-                            <p>School Polices</p>
+                            <p>school agreements</p>
                         </a>
                     </li>
                     <li class="{{ Request::segment(2) == 'kg' ? 'active' : null }}">
