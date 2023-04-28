@@ -19,7 +19,7 @@
                 <a class="fs-7 py-2 px-3 rounded-2 btn_anim">admission</a>
                 <div
                     class="mega-about white_bg top-100 start-50 translate-middle-x position-absolute rounded-3 align-items-center px-1 py-1 _borders">
-                    <a class="fs-7 py-2 px-3 rounded-2 btn_anim" href="{{route('schoolPolice')}}">school police</a>
+                    <a class="fs-7 py-2 px-3 rounded-2 btn_anim" href="{{route('schoolPolice')}}" style="min-width: 13rem!important">school agreement</a>
                     <span class=" fs-5 fw-bold first_color">|</span>
                     <a class="fs-7 py-2 px-3 rounded-2 btn_anim" href="{{route('tuitionFees')}}">tuition fees</a>
                  </div>
@@ -74,7 +74,7 @@
                         <a class="fs-7 px-2 py-1 mb-2 w-fit rounded-2 btn_anim_res _borders">admission</a>
                         <div
                             class="d-flex flex-column gap-1 w_mega white_bg rounded-3 align-items-start px-1 py-1 ms-3 _borders">
-                            <a class="fs-7 py-1 px-2 w-100 rounded-2 hover_btn _borders " href="{{route('schoolPolice')}}">school police</a>
+                            <a class="fs-7 py-1 px-2 w-100 rounded-2 hover_btn _borders " href="{{route('schoolPolice')}}">school agreement</a>
                             <a class="fs-7 py-1 px-2 w-100 rounded-2 hover_btn _borders " href="{{route('tuitionFees')}}">tuition fees</a>
                         </div>
                     </li>

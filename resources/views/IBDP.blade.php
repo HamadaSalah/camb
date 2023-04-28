@@ -262,6 +262,9 @@
                        href="{{route('CAS')}}">CAS</a>
                 </div>
             </div>
+            <div class="d-flex justify-content-end me-5 mt-5">
+                <a class="fs-7 py-1 px-4 first_color Open_Sans_font fw-bold text-capitalize rounded-2 hover_btn _borders " href="http://camb.test/apply-now">APPLY NOW</a>
+            </div>
         </div>
     </div>
 </div>

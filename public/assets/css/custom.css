@@ -146,13 +146,19 @@ footer .fa {
     font-size: 30px;
  }
  .media-width {
-    width: 300px;
+    width: 200px;
     margin-bottom: 20px;
  }
 
-
-
-
+.Media_page h4 {
+    font-size: 16px!important;
+}
+.Media_page button {
+    font-size: 16px!important;
+}
+.carousel.slide {
+    padding-top: 100px;
+}
 
 
 

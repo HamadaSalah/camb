@@ -8,37 +8,37 @@
             @foreach ($sliders as $key =>  $slider )
                 <div class="carousel-item <?php if($key==0) echo 'active'; ?> ">
                     <div class="container">
-                        <div class="row align-items-center pt-5 mb-5">
+                        <div class="row    mb-5">
                             <div class="col-12 col-md-6 col-lg-6">
                                 <div class="  Open_Sans_font second_color  pb-3 m-0 f_slider">
                                     <h5>{!! $slider->top_head!!}</h5>
-
+                                    <br>
                                         <div>
                                             <p class="pe-5 second_color " style="font-size: 21px;font-family: 'Open Sans', sans-serif;">
                                                 {!!$slider->head!!}
                                             </p>
                                         </div>
-                                        <button class="adw" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                                            <i class="fa fa-arrow-circle-left" aria-hidden="true"></i>
-
-                                          </button>
-                                          <button class="dwa" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                                            <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
-
-                                          </button>
-                                  
                                 </div>
                             </div>
-                            <div class="col-12 col-md-6 col-lg-6 d-flex justify-content-center">
+                            <div class="col-12 col-md-6 col-lg-6 ">
                                 <img class="w-100" src="{{asset($slider->img)}}" alt="">
                             </div>
                         </div>
         
                     </div>
                 </div>
-                
             @endforeach
         </div>
+        <button class="adw" style="position: absolute;left: 10%;top: 68%;" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <i class="fa fa-arrow-circle-left" aria-hidden="true"></i>
+
+          </button>
+          <button class="dwa" style="position: absolute;left: 15%;top: 68%;"  type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+
+          </button>
+  
+
       </div>
 </div>
 
