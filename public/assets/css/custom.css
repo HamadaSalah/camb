@@ -183,6 +183,8 @@ footer .fa {
     .carousel-control-next-icon, .carousel-control-prev-icon {
         margin-top: 200px;
       }
-    
+    .adw, .dwa {
+        top: 100%!important;
+    }
 }
     
