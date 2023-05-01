@@ -29,11 +29,11 @@
                 </div>
             @endforeach
         </div>
-        <button class="adw" style="position: absolute;left: 10%;top: 68%;" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <button class="adw" style="position: absolute;left: 30px;top: 68%;" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
             <i class="fa fa-arrow-circle-left" aria-hidden="true"></i>
 
           </button>
-          <button class="dwa" style="position: absolute;left: 15%;top: 68%;"  type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <button class="dwa" style="position: absolute;right: 30px;top: 68%;"  type="button" data-bs-target="#carouselExample" data-bs-slide="next">
             <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
 
           </button>
