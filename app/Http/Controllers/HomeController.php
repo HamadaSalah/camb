@@ -10,6 +10,7 @@ use App\Models\Gallery;
 use App\Models\HomeSlider;
 use App\Models\KG;
 use App\Models\Polices;
+use App\Models\Primary;
 use App\Models\ReachUs;
 use App\Models\Tut;
 use App\Models\Video;
@@ -93,7 +94,8 @@ class HomeController extends Controller
 
     public function primary()
     {
-        return view('primary');
+        $primary = Primary::first();
+        return view('primary', compact('primary'));
     }
 
     //end of primary
