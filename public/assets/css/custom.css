@@ -159,9 +159,36 @@ footer .fa {
 .carousel.slide {
     padding-top: 100px;
 }
+.fc .fc-daygrid-day-top {
+    display: block;
+    height: 100%;
+    position: absolute;
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
 
-
-
+.fc .fc-daygrid-day-number {
+    padding: 4px;
+    position: relative;
+    z-index: 4;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+    font-size: 22px!important;
+    display: block;
+    text-align: center;
+    margin: auto;
+    line-height: 100%;
+    height: unset;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+ }
 
 
 
