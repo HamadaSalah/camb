@@ -63,7 +63,7 @@
 <script src="{{asset('assets/js/app.js')}}"></script>
 <script src="{{asset('assets/js/custom.js')}}"></script>
 
-
-</body>
+@stack('custom-sc')
+    </body>
 
 </html>

@@ -190,4 +190,8 @@ class HomeController extends Controller
         mail('cambridge@cambridge.edu.jo', $request->phone, $request->message);
         return redirect()->route('index');
     }
+    public function getcalenders(Request $request) {
+        $cal = CalenderEvent::where('type', $request->type)->get();
+        return response()->json($cal, 200);
+    }
 }

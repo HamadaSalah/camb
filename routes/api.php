@@ -19,3 +19,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 Route::post('/tut', [HomeController::class, 'getTut'])->name('getTut');
+Route::post('/getcalenders', [HomeController::class, 'getcalenders'])->name('getcalenders');

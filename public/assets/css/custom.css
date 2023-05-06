@@ -120,9 +120,16 @@ footer .fa {
 .f_slider p {
     font-size: 21px;font-family: 'Open Sans', sans-serif;
 }
-.f_slider h1 {
-    color: #b11e24;
+.f_slider h1, .f_slider h5, .f_slider p {
+    color: #fff!important;
 }
+.f_slider h5 {
+    font-weight: bold;
+    font-size: 30px!important;
+    color: #b11e24!important;
+ }
+.f_slider_img {
+ }
 .primary_page p {
     font-family: 'Open Sans', sans-serif;
 }
@@ -142,8 +149,11 @@ footer .fa {
 .fa.fa-arrow-circle-left, .fa.fa-arrow-circle-right{
     background: transparent;
     border: 0;
-    color: #b11e24;
-    font-size: 30px;
+     font-size: 40px;
+    background: -webkit-linear-gradient(#b11e24, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
  }
  .media-width {
     width: 200px;
@@ -156,9 +166,16 @@ footer .fa {
 .Media_page button {
     font-size: 16px!important;
 }
-.carousel.slide {
-    padding-top: 100px;
-}
+.FirstCarou {
+    background: url('../images/fgf.jpg') no-repeat top;
+    background-size: cover;
+ }
+ .FirstCarou .carousel.slide {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-top: 220px;
+    height: 900px;
+
+ }
 .fc .fc-daygrid-day-top {
     display: block;
     height: 100%;
@@ -189,8 +206,14 @@ footer .fa {
     display: inline-block;
     vertical-align: middle;
  }
-
-
+.myynavv {
+    position: absolute!important;
+    background: none!important;
+    width: 100%;
+}
+.myynavv ul > li > a {
+    color: #fff;
+}
 
 
 
@@ -211,7 +234,10 @@ footer .fa {
         margin-top: 200px;
       }
     .adw, .dwa {
-        top: 100%!important;
+        top: 90%!important;
+    }
+    .stylerbottom {
+        display: none;
     }
 }
     
