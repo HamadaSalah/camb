@@ -38,15 +38,18 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $school_calender = CalenderEvent::select('start', 'end', 'display', 'color', 'category', 'type')->get()->map(function ($school_calender, $key) {
+        
+        $school_calender = CalenderEvent::select('start', 'end', 'display', 'color', 'category', 'type', 'desc')->get()->map(function ($school_calender, $key) {
             return [
                 'start' => $school_calender->start,
                 'end' => $school_calender->end,
                 'display' => $school_calender->display,
                 'color' => $school_calender->color,
                 'title' => $school_calender->type,
+                'description' =>$school_calender->desc,
+
             ];
-        });;
+        });
         $eventgall = EventGall::all();
         $sliders = HomeSlider::all();
         $cards = Event::latest()->get()->take(6);
@@ -186,5 +189,9 @@ class HomeController extends Controller
     {
         mail('cambridge@cambridge.edu.jo', $request->phone, $request->message);
         return redirect()->route('index');
+    }
+    public function getcalenders(Request $request) {
+        $cal = CalenderEvent::where('type', $request->type)->get();
+        return response()->json($cal, 200);
     }
 }

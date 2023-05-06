@@ -41,6 +41,7 @@ class CalenderController extends Controller
             'start' => 'required',
             'category' => 'required',
             'type' => 'required',
+            'desc' => 'required',
         ]);  
         $color = '' ; 
         if($request->type == 'Assessment') {
@@ -65,6 +66,7 @@ class CalenderController extends Controller
             'color' => $color,
             'category' => $request->category,
             'type' => $request->type,
+            'desc' => $request->desc,
         ]);
         return redirect()->route('admin.calender.index');
     }
