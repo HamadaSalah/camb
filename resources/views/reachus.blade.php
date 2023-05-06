@@ -47,9 +47,7 @@
                             <p class="ps-2 w-content-50 m-0 pb-1 Open_Sans_font text-center text-md-start text-lg-start">
                                 {!!$reachus->phone2!!}
                             </p>
-                            <a class="Open_Sans_font pb-1" href="https://www.google.com/maps/place/Cambridge+High+School/@31.9848064,35.8777881,16z/data=!4m6!3m5!1s0x151ca03651c4092b:0xa8e799573793cab7!8m2!3d31.9814546!4d35.8791385!16s%2Fm%2F07s419z"><p
-                                    class="ps-2 w-content-50 Open_Sans_font text-center text-md-start text-lg-start m-0">
-                                Map</p></a>
+                        
                         </div>
                     </div>
                 </div>
@@ -65,7 +63,7 @@
                 <div class="col-12 col-md-12 col-lg-6 mt-4">
                     <div class="row h-100 misimg">
                         <div class="col-12">
-                            <img src="{!!asset($reachus->l_img)!!}" alt="" style="height: 550px!important;
+                            <img src="{!!asset($reachus->l_img)!!}" alt="" style="height: 510px!important;
                             margin: auto;
                             text-align: center;
                             display: block;"

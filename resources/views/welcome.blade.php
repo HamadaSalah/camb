@@ -89,15 +89,14 @@
             <div class="col-12 col-md-12 col-lg-6 mt-4 visiondiv">
                 <h3 class="pb-3">Our</h3>
                 <h2 class="pb-4 first_color text-uppercase">
-                    vision
+                   Statement vision
                 </h2>
                 <p class="pb-3 lh-lg m-0">
                     {!!$welcome->vis_desc!!}
                 </p>
                 <div class="d-flex justify-content-between align-items-center me-0 me-md-5 me-lg-5">
-                    <p class="fw-semibold m-0">Become Part of our Family!</p>
-                    <a class="fs-7 py-1 px-4 first_color Open_Sans_font fw-bold text-capitalize rounded-2 hover_btn _borders "
-                       href="{{Route('applyNow')}}">Apply Now</a>
+                   <!-- <a class="fs-7 py-1 px-4 first_color Open_Sans_font fw-bold text-capitalize rounded-2 hover_btn _borders "
+                       href="{{Route('applyNow')}}">Apply Now</a> -->
                 </div>
             </div>
         </div>

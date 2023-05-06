@@ -53,6 +53,7 @@
                 </div>
                 <div class="right-side px-3 pt-3 pt-lg-0 pt-xl-0 text-uppercase Open_Sans_font">
                     CAMBRIDGE HIGH SCHOOL (CHS) Copyright © 2023
+                    <br><br>  <a href="https://www.instagram.com/era_techjo/"> <p style="color:white;font-weight:bold"> devloped by : Era Tech Jo</p></a>
                 </div>
             </div>
         </div>

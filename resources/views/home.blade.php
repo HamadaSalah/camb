@@ -58,7 +58,7 @@
                     </h1>
                     <div class="ps-2 pb-4">
                         <h2 class="text-uppercase text-capitalize fw-bold first_color pb-2 m-0">
-                            december 2023
+                            May 2023
                         </h2>
                         <span class="fw-semibold">
                             Everything you need to know each month.

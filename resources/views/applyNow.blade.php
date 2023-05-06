@@ -3,10 +3,10 @@
 <div class="aply_now_page">
 
     <div class="w-100 z-n1">
-        <img class="w-100" src="assets/images/Asset.png" alt="">
+        <img class="w-100" src="assets/images/Asset.png" alt="">h
     </div>
 
-    <div class="container">
+  <!--  <div class="container">
         <div class="row">
             <div class="col-12 mt-4 REP">
                 <h1 class="pb-4 text-uppercase">
@@ -84,7 +84,7 @@
                 </form>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <div class="container pb-4">
         <div class="row">

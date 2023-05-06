@@ -3,13 +3,23 @@
 <div class="aply_now_page">
 
     <div class="w-100 z-n1">
-        <img class="w-100" src="assets/images/Asset.png" alt="">
+        <img src="assets/images/Asset.png" alt="" >
     </div>
 
-    <div class="container">
+   <!-- <div class="container">
         <div class="row">
             <div class="col-12 mt-4 REP">
                 <h1 class="pb-4 text-uppercase">
+                
+                
+                
+                .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+                
                     TUITION FEES
                 </h1>
                 <h3 class="pb-1 lh-lg m-0 text-uppercase">
@@ -84,7 +94,13 @@
                 </form>
             </div>
         </div>
-    </div>
+    </div> -->
+     
+     
+     
+     <img class="img-fluid" width="500" height="600" src="{{asset('assets/images/fees.jpg')}}" style=" display: block;margin-left: auto;   margin-right: auto;
+  width: 50%;" alt="">
+     
 
     <div class="container pb-4">
         <div class="row">
@@ -93,66 +109,58 @@
 
             <div class="col-12">
                 <p class="pb-2 lh-lg m-0">
-                    A discount of 5% will be offered for tuition paid in full before 1/8/2022.
+                    > An additional CAS educational fee of JO 150 for Grades 11 + 12 due on 1/5/2023.
                 </p>
                 <p class="pb-2 lh-lg m-0">
-                    An additional CAS educational fee of 150 JD for Grades 11 + 12 due on 1/4/2022
+                   > Grade 11 + 12 students taking visual arts are charged an additional JD 150 each year.
                 </p>
                 <p class="pb-2 lh-lg m-0">
-                    * Grade 11 + 12 students taking visual arts are charged an additional 150 JD each year
+                    > An additional Extended Essay for Diploma Students fee of JO 300 for Grade 11 due on 30/6/2023.
                 </p>
                 <p class="pb-2 lh-lg m-0">
-                    * An additional Extended Essay fee for Diploma Students of 300 JD for Grade 11 due on 1/8/2022
+                    > Graduation fee for Grade 12 is JO 300.
                 </p>
                 <p class="pb-2 lh-lg m-0">
-                    * Graduation fee for Grade 12 is 300 JD
+                   > One time joining fee for new students is JD 400 for Grades 2 - 12IB and JD 200
+   for K*, KGl, KG2 and Grade.
                 </p>
                 <p class="pb-2 lh-lg m-0">
-                    ne time joining fee for new students is 400 JD for Grades 2 – 12IB and 200 JD for K*, K1, K2 and
-                    Grade 1. The
-                    joining fees are non-refundable and are not part of the tuition.
+                   The joining fees are non-refundable and are not part of the tuition.
                 </p>
                 <p class="pb-2 lh-lg m-0">
-                    Tuition fees do not include textbooks, copybooks, exams, graduation, uniform, transportation or
-                    field trips; but
-                    do include Ministry of Education textbooks and insurance for accidents taking place at school.
+                    > Tuition fees do not include textbooks, copybooks, exams, graduation, uniform, transportation or field trips; but do include Ministry of Education textbooks and insurance for accidents taking place at school.
                 </p>
                 <p class="pb-3 lh-lg m-0">
-                    First sibling pays full tuition, but a discount of 10% applies for the second sibling, and the
-                    third or more siblings
-                    receive 15%.
+                   > First sibling pays full tuition, but a discount of 10% applies for the second sibling, and the third or more siblings receive 15%.
+
                 </p>
                 <p class="pb-2 lh-lg m-0">
-                    A yearly fee of 300 JD for additional one hour supervision of K students before and after normal
-                    school hours is
-                    charged. However, students supervised during duty hours are not offered any bus services in the
-                    afternoon.
+                   > A discount of 5% will be offered for tuition paid in full before 1/8/2023.
                 </p>
                 <p class="pb-2 lh-lg m-0">
-                    Seat reservation fee for existing students (the 1st installment) must be paid by 1/4/2022 for
-                    the coming academic
-                    year. Seats not reserved by the given date will be offered to students on our waiting list.
+                   > A yearly fee of JD 300 for additional one hour supervision of KG students before and after normal school hours is charged. However, students supervised during duty hours are not offered any bus services in the afternoon.
                 </p>
                 <p class="pb-2 lh-lg m-0">
-                    Seats are reserved on a yearly basis, and therefore fees are paid for the full year even if the
-                    student transfers out
-                    during the year. Fees paid are non-refundable.
+                  > Seat reservation fee for existing students (the 1st installment fee) _must be paid by 1/4/2023
+for the coming academic year. Seats not reserved by the given date will be offered to students on
+our waiting list.
                 </p>
                 <p class="pb-2 lh-lg m-0">
-                    If a student transfers from school at any time, the account must be settled in full before
-                    documents are released.
+                    > Seats are reserved on a yearly basis, and therefore fees are paid for the full year even if the student transfers out during the year. Fees paid are non-refundable.
+
                 </p>
                 <p class="pb-2 lh-lg m-0">
-                    If you wish to transfer your child from the school at the end of the academic year, the
-                    student’s file must be
-                    removed before 30/6/2022.
+                  > If a student transfers from school at any time, the account must be settled in full before documents are released.
+
                 </p>
                 <p class="pb-2 lh-lg m-0">
-                    Transportation is offered to most areas of West Amman. Price is 750 JD for inside Amman, and 800
-                    JD for Airport
-                    Road, round trip per year, payable 1/5/2022. Each bus is accompanied by an assistant for child
-                    safety and
-                    security.
+                   > If you wish to transfer your child from the school at the end of the academic year, the student's file must be removed before 30/6/2023.
+
+                </p>
+                 <p class="pb-2 lh-lg m-0">
+                 > Transportation is offered to most areas of West Amman. Price is JD 750 for inside Amman, and JD 800 for Airport Road, round trip per year, payable 1/5/2023 . Each bus is accompanied by an assistant for child safety and security.
+                 
+
                 </p>
 
                 <div class="red_line_section mx-auto my-3"></div>

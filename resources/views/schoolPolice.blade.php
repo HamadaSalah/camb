@@ -10,7 +10,8 @@
             <div class="">
                 <div class="px-3 py-4 w-content-75 light_gray_bg rounded-3">
                     <div class="text-container padding-start ps-0 ps-md-5 ps-lg-5 ps-xl-5 ps-xxl-5 text-center text-md-start text-lg-start">
-                        <h2 class="text-capitalize first_color">School Rules</h2>
+                      
+                        <h2 class="text-capitalize first_color">SCHOOL AGREEMENTS</h2>
                         <p class="ps-2 lh-lg w-content-50 Open_Sans_font fw-semibold text-center text-md-start text-lg-start">
                             {!!$police->head!!}
                         </p>
