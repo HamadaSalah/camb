@@ -39,6 +39,7 @@ class CalenderController extends Controller
     {
         $request->validate([
             'start' => 'required',
+            'end' => 'required',
             'category' => 'required',
             'type' => 'required',
             'desc' => 'required',
@@ -61,7 +62,7 @@ class CalenderController extends Controller
         }
         CalenderEvent::create([
             'start' => $request->start,
-            'end' => $request->start,
+            'end' => $request->end,
             'display' => 'background',
             'color' => $color,
             'category' => $request->category,

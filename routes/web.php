@@ -36,3 +36,4 @@ Route::get('/facilities', [HomeController::class, 'facilities'])->name('faciliti
 Route::get('/facilities/{id}', [HomeController::class, 'getFacilities'])->name('getFacilities');
 Route::post('/emailToUs', [HomeController::class, 'emailToUs'])->name('emailToUs');
 Route::get('/polices', [HomeController::class, 'polices'])->name('polices');
+Route::get('/unver-cons', [HomeController::class, 'unver_cons'])->name('unver_cons');

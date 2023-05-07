@@ -1,4 +1,4 @@
-<nav class="navbar position-relative py-3 px-1 px-md-4 px-lg-4 px-xl-4 shadow z-3 white_bg myynavv">
+<nav class="navbar position-relative py-3 px-1 px-md-4 px-lg-4 px-xl-4 shadow z-3 white_bg <?php if(request()->route()->getName() == 'index') echo 'myynavv'; ?> ">
     <div class="container-fluid">
         <a class="navbar-brand" href="{{route('index')}}">
             <img class="img-fluid" width="170" src="{{asset('assets/images/Logo-Rad.png')}}" alt="">
