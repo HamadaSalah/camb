@@ -35,3 +35,4 @@ Route::get('/gallery/{id}', [HomeController::class, 'getGallery'])->name('getGal
 Route::get('/facilities', [HomeController::class, 'facilities'])->name('facilities');
 Route::get('/facilities/{id}', [HomeController::class, 'getFacilities'])->name('getFacilities');
 Route::post('/emailToUs', [HomeController::class, 'emailToUs'])->name('emailToUs');
+Route::get('/polices', [HomeController::class, 'polices'])->name('polices');
