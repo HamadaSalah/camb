@@ -194,4 +194,8 @@ class HomeController extends Controller
         $cal = CalenderEvent::where('type', $request->type)->get();
         return response()->json($cal, 200);
     }
+    public function polices() {
+        return view('policess');
+
+    }
 }
