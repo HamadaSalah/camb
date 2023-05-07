@@ -49,6 +49,11 @@
                     <ul class="left-side d-flex align-items-center Open_Sans_font text-uppercase py-2">
                         <span class="d-none d-lg-block d-xl-block d-xxl-block">|</span>
                         <li class="px-3"><a class="text-white" href="{{route('gallery')}}">library</a></li>
+                        <span>|</span>
+                        <li class="px-3"><a class="text-white" href="{{route('polices')}}">policies</a></li>
+                        <span>|</span>
+                        <li class="px-3"><a class="text-white" href="{{route('unver_cons')}}">consulting </a></li>
+
                     </ul>
                 </div>
                 <div class="right-side px-3 pt-3 pt-lg-0 pt-xl-0 text-uppercase Open_Sans_font">

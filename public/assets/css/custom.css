@@ -123,13 +123,17 @@ footer .fa {
 .f_slider h1, .f_slider h5, .f_slider p {
     color: #fff!important;
 }
+.mypp {
+    width: 100%;
+    min-height: 800px;
+    display: block;
+    padding: 50px 0;
+}
 .f_slider h5 {
     font-weight: bold;
     font-size: 30px!important;
     color: #b11e24!important;
     font-family: 'playfair';
- }
-.f_slider_img {
  }
 .primary_page p {
     font-family: 'Open Sans', sans-serif;
@@ -216,7 +220,11 @@ footer .fa {
     color: #fff;
 }
 
-
+.unver {
+    width: 100%;
+    min-height: 800px;
+    display: block;
+}
 
 
 
@@ -239,6 +247,10 @@ footer .fa {
     }
     .stylerbottom {
         display: none;
+    }
+    embed {
+        width: 100%!important;
+        height: 600px!important;
     }
 }
     

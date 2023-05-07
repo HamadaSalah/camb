@@ -6,15 +6,20 @@
 
 <form method="POST" action="{{route('admin.calender.store')}}" enctype="multipart/form-data">
     @csrf
-    <div class="form-group">
+      <div class="form-group">
         <label for="img">Start</label>
         <input type="date" class="form-control" name="start"  placeholder="Start..">
-    </div>
-    <div class="form-group">
+      </div>
+      <div class="form-group">
+        <label for="img">End</label>
+        <input type="date" class="form-control" name="end"  placeholder="End..">
+      </div>
+<div class="form-group">
         <label for="role">Select Category</label>
         <select class="form-control" id="role" required name="category">
-            <option value="PRIMARY">PRIMARY</option>
-            <option value="KINDERGARTEN">KINDERGARTEN</option>
+          <option value="All">All</option>
+          <option value="PRIMARY">PRIMARY</option>
+          <option value="KINDERGARTEN">KINDERGARTEN</option>
             <option value="MYP">MYP</option>
             <option value="IBDP">IBDP</option>
             <option value="CAS">CAS</option>
