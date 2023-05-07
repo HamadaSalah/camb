@@ -19,9 +19,9 @@
                 <a class="fs-7 py-2 px-3 rounded-2 btn_anim">admission</a>
                 <div
                     class="mega-about white_bg top-100 start-50 translate-middle-x position-absolute rounded-3 align-items-center px-1 py-1 _borders">
-                    <a class="fs-7 py-2 px-3 rounded-2 btn_anim" href="{{route('schoolPolice')}}" style="min-width: 13rem!important">school agreement</a>
+                    <a class="fs-7 py-2 px-3 rounded-2 btn_anim" href="{{route('schoolPolice')}}" style="min-width: 13rem!important">school agreements</a>
                     <span class=" fs-5 fw-bold first_color">|</span>
-                    <a class="fs-7 py-2 px-3 rounded-2 btn_anim" href="{{route('tuitionFees')}}">tuition fees</a>
+                    <a class="fs-7 py-2 px-3 rounded-2 btn_anim" href="{{route('tuitionFees')}}">Annual fees</a>
                  </div>
             </li>
             <li class="fs-5 ">|</li>

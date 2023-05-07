@@ -141,7 +141,9 @@
                    > A yearly fee of JD 300 for additional one hour supervision of KG students before and after normal school hours is charged. However, students supervised during duty hours are not offered any bus services in the afternoon.
                 </p>
                 <p class="pb-2 lh-lg m-0">
-                  > Seat reservation fee for existing students (the 1st installment fee) _must be paid by 1/4/2023
+                    
+                    
+                  > Seat reservation fee for existing students (the 1st installment fee) must be paid by 1/4/2023
 for the coming academic year. Seats not reserved by the given date will be offered to students on
 our waiting list.
                 </p>
