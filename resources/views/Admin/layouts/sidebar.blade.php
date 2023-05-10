@@ -87,8 +87,20 @@
                             <p>PRIMARY Page</p>
                         </a>
                     </li>
- 
- 
+                    <li class="{{ Request::segment(2) == 'myp' ? 'active' : null }}">
+                        <a class="nav-link" href="{{route('admin.myp.index')}}">
+                            <i class="nc-icon nc-paper-2"></i>
+                            <p>MYP Page</p>
+                        </a>
+                    </li>
+                    <li class="{{ Request::segment(2) == 'cas' ? 'active' : null }}">
+                        <a class="nav-link" href="{{route('admin.cas.index')}}">
+                            <i class="nc-icon nc-paper-2"></i>
+                            <p>CAS Page</p>
+                        </a>
+                    </li>
+                    
+                    
                     {{-- <li class="{{ Request::segment(2) == 'News' ? 'active' : null }} dropparent">
                         <a class="nav-link" >
                             <i class="nc-icon nc-globe-2"></i>
