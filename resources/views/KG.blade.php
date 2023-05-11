@@ -8,8 +8,26 @@
 <div class="container pb-5">
     <div class="row flex-column-reverse flex-md-column-reverse flex-lg-row-reverse flex-xl-row-reverse flex-xxl-row-reverse pt-5">
         <div class="col-12 col-md-12 col-lg-6 misimg">
-            <img src="{{asset($kg->sec1_img)}}" alt="" class="h-100 rounded-3">
-        </div>
+            <div id="carouselExample22" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="{{asset($kg->sec1_img)}}" alt="" class="h-100 rounded-3">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="{{asset($kg->sec1_img)}}" alt="" class="h-100 rounded-3">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample22" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample22" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                
+              </div>
+            </div>
         <div class="col-12 col-md-12 col-lg-6 mt-4">
             <h2 class="pb-3 m-0">{!!$kg->sec1_head!!}</h2>
 

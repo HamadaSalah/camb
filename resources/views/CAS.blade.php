@@ -62,8 +62,26 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="d-flex flex-column">
-                                <img src="{{asset($cas->sec3_img)}}" alt=""
-                                     class="h-100 mb-4 rounded-3">
+                                            <div id="carouselExample22" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="{{asset($cas->sec1_img)}}" alt="" class="h-100 rounded-3">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="{{asset($cas->sec1_img)}}" alt="" class="h-100 rounded-3">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample22" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample22" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                
+              </div>
+
                             </div>
                         </div>
                     </div>
