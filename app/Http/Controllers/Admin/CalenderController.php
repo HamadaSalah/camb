@@ -15,7 +15,7 @@ class CalenderController extends Controller
      */
     public function index()
     {
-        $calenders = CalenderEvent::paginate(20);
+        $calenders = CalenderEvent::latest()->get();
         return view('Admin.Calender.index', compact('calenders'));
     }
 

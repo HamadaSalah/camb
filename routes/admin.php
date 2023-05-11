@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Admin\CalenderController;
+use App\Http\Controllers\Admin\CASController;
 use App\Http\Controllers\Admin\ClassController;
 use App\Http\Controllers\Admin\EventGallController;
 use App\Http\Controllers\Admin\EventsController;
@@ -8,6 +9,7 @@ use App\Http\Controllers\Admin\FacilController;
 use App\Http\Controllers\Admin\GalleryController;
 use App\Http\Controllers\Admin\KGController;
 use App\Http\Controllers\Admin\LoginController;
+use App\Http\Controllers\Admin\MYPController;
 use App\Http\Controllers\Admin\PolicesController;
 use App\Http\Controllers\Admin\PrimaryController;
 use App\Http\Controllers\Admin\ReachUsController;
@@ -45,4 +47,6 @@ Route::prefix('admin')->middleware('auth:admin')->name('admin.')->group(function
     Route::resource('/eventgallery', EventGallController::class);
     Route::resource('/kg', KGController::class);
     Route::resource('/primary', PrimaryController::class);
+    Route::resource('/myp', MYPController::class);
+    Route::resource('/cas', CASController::class);
 });
