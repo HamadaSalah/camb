@@ -3,12 +3,14 @@
 namespace App\Http\Controllers;
 
 use App\Models\CalenderEvent;
+use App\Models\CAS;
 use App\Models\Event;
 use App\Models\EventGall;
 use App\Models\Facil;
 use App\Models\Gallery;
 use App\Models\HomeSlider;
 use App\Models\KG;
+use App\Models\MYP;
 use App\Models\Polices;
 use App\Models\Primary;
 use App\Models\ReachUs;
@@ -112,7 +114,8 @@ class HomeController extends Controller
 
     public function MYP()
     {
-        return view('MYP');
+        $myp  = MYP::first();
+        return view('MYP', compact('myp'));
     }
     //end of MYP
 
@@ -124,23 +127,27 @@ class HomeController extends Controller
 
     public function CAS()
     {
-        return view('CAS');
+        
+        return view('CAS',['cas' => CAS::first()]);
     }
     //end of CAS
 
     public function calender()
     {
-        $school_calender = CalenderEvent::select('start', 'end', 'display', 'color', 'category', 'type')->get()->map(function ($school_calender, $key) {
+        $school_calender = CalenderEvent::select('start', 'end', 'display', 'color', 'category', 'type', 'desc')->get()->map(function ($school_calender, $key) {
             return [
                 'start' => $school_calender->start,
                 'end' => $school_calender->end,
                 'display' => $school_calender->display,
                 'color' => $school_calender->color,
                 'title' => $school_calender->type,
-            ];
-        });;
+                'description' =>$school_calender->desc,
 
-        return view('calender', compact('school_calender'));
+            ];
+        });
+        $eventgall = EventGall::all();
+
+        return view('calender', compact('school_calender', 'eventgall'));
     }
     //end of calender
 

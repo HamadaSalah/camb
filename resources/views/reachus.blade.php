@@ -7,10 +7,17 @@
                 <div>
                     <div class="px-3 py-5 rounded-3">
                         <div class="text-container padding-start ps-0 ps-md-5 ps-lg-5 ps-xl-5 ps-xxl-5 py-5 text-center text-md-start text-lg-start rechp">
-                            <h2 class="text-capitalize fw-bold pb-4">reach us</h2>
-                            <p class="ps-2 pe-2 pe-md-5 pe-lg-5 Open_Sans_font text-center text-md-start text-lg-start">
-                                {!!$reachus->head!!}
-                            </p>
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <h2 class="text-capitalize fw-bold pb-4">reach us</h2>
+                                    <p class="ps-2 pe-2 pe-md-5 pe-lg-5 Open_Sans_font text-center text-md-start text-lg-start">
+                                        {!!$reachus->head!!}
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                        <img src="{!!asset($reachus->f_img)!!}" alt="" class="img-fluid rounded-3 mt-4">
+                                </div>
+                            </div>
                         </div>
                         <div class="main_color_bg w-25 shape-line">
                         </div>
@@ -20,6 +27,7 @@
                         </div>
                     </div>
                 </div>
+                <div class="clearfix"></div>
                 <div class="container position-img-reach z-3">
                     <div class="row">
                         <div class="col-12 col-md-6 col-lg-3">
@@ -27,11 +35,10 @@
                         <div class="col-12 col-md-6 col-lg-3">
                         </div>
                         <div class="col-12 col-md-12 col-lg-4">
-                            <img src="{!!asset($reachus->f_img)!!}" alt="" class="img-fluid rounded-3 mt-4">
-                        </div>
+                         </div>
                     </div>
                 </div>
-                <div class="position-img-sec">
+                <div class=" ">
                     <div class="px-3 py-4 w-content-75 white_bg rounded-3 mt-5 addresses">
                         <div class="text-container padding-start ps-0 ps-md-5 ps-lg-5 ps-xl-5 ps-xxl-5 text-center text-md-start text-lg-start">
                             <h2 class="text-capitalize mb-3">CALL US , VISIT US, EMIL US</h2>
