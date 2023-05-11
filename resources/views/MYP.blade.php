@@ -234,7 +234,7 @@
 
                     <div class="d-flex justify-content-end me-5 mt-5">
                         <a class="fs-7 py-1 px-4 first_color Open_Sans_font fw-bold text-capitalize rounded-2 hover_btn _borders "
-                           href="{{Route('applyNow')}}">APPLY NOW</a>
+                           href="https://test.cambridge.edu.jo/tuition-fees">APPLY NOW</a>
                     </div>
                 </div>
             </div>

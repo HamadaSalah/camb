@@ -1,6 +1,11 @@
 @extends('layouts.app')
 @section('content')
 <div class="Media_page">
+    
+    
+    <div class="w-100 z-n1">
+        <img class="w-100" src="assets/images/Asset.png" alt="">
+    </div>
     <div class="px-3 py-5 rounded-3">
         <div class="text-container padding-start ps-0 ps-md-5 ps-lg-5 ps-xl-5 ps-xxl-5 pt-5 text-center text-md-start text-lg-start">
             <h2 class="text-uppercase fw-bold text-uppercase pb-4">logos and media</h2>
@@ -73,19 +78,19 @@
             </div>
             <div class="col-12 col-md-12 col-lg-12 d-flex flex-column flex-md-row flex-lg-row align-items-center justify-content-between mb-4">
                 <div class="img-content">
-                    <img src="/assets/images/pta.jpg" alt="" class="imf-fluid media-width">
+                    <img src="/assets/images/caie.png" alt="" class="imf-fluid media-width">
                 </div>
                 <div class="text-content">
                     <div class="text-center mt-4 mt-md-0 mt-lg-0">
                         <h4 class="text-dark m-0 fs-3 Open_Sans_font">
-                            PTA
+                            Cambridge Assessment International Education
                         </h4>
                     </div>
                 </div>
                 <div class="download-content">
                     <button class="btn d-flex align-items-center mt-4 mt-md-0 mt-lg-0 gap-2 fs-2">
                         <i class="fa fa-download" aria-hidden="true"></i>
-                        <a href="/assets/images/pta.jpg" download><span class="text-uppercase Open_Sans_font fw-semibold">png</span></a>
+                        <a href="/assets/images/caie.png" download><span class="text-uppercase Open_Sans_font fw-semibold">png</span></a>
                     </button>
                 </div>
             </div>
@@ -103,7 +108,7 @@
                 <div class="download-content">
                     <button class="btn d-flex align-items-center mt-4 mt-md-0 mt-lg-0 gap-2 fs-2">
                         <i class="fa fa-download" aria-hidden="true"></i>
-                        <a href="/assets/images/YEARBOOK COVER.jpg" download><span class="text-uppercase Open_Sans_font fw-semibold">png</span></a>
+                        <a href="/assets/images/YEARBOOK COVER.jpg" download><span class="text-uppercase Open_Sans_font fw-semibold">pdf</span></a>
                     </button>
                 </div>
             </div>

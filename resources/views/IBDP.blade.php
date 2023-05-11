@@ -63,7 +63,7 @@
                     </p>
                     <div class="d-flex justify-content-end me-5 mt-5">
                         <a class="fs-7 py-1 px-4 first_color Open_Sans_font fw-bold text-capitalize rounded-2 hover_btn _borders "
-                           href="#">UNIVERSITY COUNSELLING</a>
+                           href="https://test.cambridge.edu.jo/unver-cons">UNIVERSITY COUNSELLING</a>
                     </div>
             </div>
         </div>
@@ -263,7 +263,7 @@
                 </div>
             </div>
             <div class="d-flex justify-content-end me-5 mt-5">
-                <a class="fs-7 py-1 px-4 first_color Open_Sans_font fw-bold text-capitalize rounded-2 hover_btn _borders " href="http://camb.test/apply-now">APPLY NOW</a>
+                <a class="fs-7 py-1 px-4 first_color Open_Sans_font fw-bold text-capitalize rounded-2 hover_btn _borders " href="https://test.cambridge.edu.jo/tuition-fees">APPLY NOW</a>
             </div>
         </div>
     </div>

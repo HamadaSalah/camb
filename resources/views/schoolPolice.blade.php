@@ -63,21 +63,19 @@
             <div class="col-12 col-md-12 col-lg-6 mt-4 misimg">
                 <img src="{{asset($police->third_p_img)}}" alt="" class="h-100 rounded-3">
             </div>
-            <div class="col-12 col-md-12 col-lg-6 mt-4">
-                <p class="pb-2 lh-lg m-0 Open_Sans_font fw-semibold">
-                   {!!$police->third_p!!}
-                </p>
-            </div>
+           
         </div>
     </div>
 
-    <div class="w-100 ">
-        <img class="w-100" src="assets/images/assets9.png" alt="">
-    </div>
+
+
+   
 
     <div class="container mb-5">
         <div class="row flex-column-reverse flex-md-column-reverse flex-lg-row-reverse flex-xl-row-reverse flex-xxl-row-reverse">
-
+           <div class="w-100 ">
+        <img class="w-100" src="assets/images/assets9.png" alt="">
+    </div>
             <div class="col-12 mt-4">
                 <h1 class="pb-4 m-0">To Parents</h1>
 

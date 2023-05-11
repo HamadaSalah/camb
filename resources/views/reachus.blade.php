@@ -1,6 +1,10 @@
 @extends('layouts.app')
 @section('content')
 <div class="reach_us_page">
+    
+    <div class="w-100 z-n1">
+        <img class="w-100" src="assets/images/Asset.png" alt="">
+    </div>
     <div class="second_color_bg">
         <div class="row">
             <div class="col-12 position-relative">
@@ -49,9 +53,15 @@
                             </p>
                         
                         </div>
+                        
+                   
                     </div>
+                    
                 </div>
-            </div>
+                   <div class="w-100 ">
+        <img class="w-100" src="assets/images/assets9.png" alt="">
+    </div>
+          </div>
         </div>
     </div>
     <div class="w-100">
