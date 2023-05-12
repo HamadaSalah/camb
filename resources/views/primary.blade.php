@@ -1,8 +1,12 @@
 @extends('layouts.app')
 @section('content')
 <div class="primary_page">
+    
+    <div class="w-100 z-n1">
+        <img class="w-100" src="assets/images/Asset.png" alt="">
+    </div>
     <div class="w-100 z-1">
-        <img class="w-100" src="assets/images/Assets.png" alt="">
+        <img class="w-100" src="assets/images/Assets9.png" alt="">
     </div>
      <div class="container py-5">
         <div class="row flex-column-reverse flex-md-column-reverse flex-lg-row-reverse flex-xl-row-reverse flex-xxl-row-reverse">
@@ -61,13 +65,19 @@
             <div class="row flex-column-reverse flex-md-column-reverse flex-lg-row-reverse flex-xl-row-reverse flex-xxl-row-reverse mt-5">
                 <div class="col-12 col-md-12 col-lg-6 mt-4">
                     <img src="{{asset($primary->sec3_img)}}" alt="" class="w-100 rounded-3">
+                     <div class="col-12 col-md-12 col-lg-6 mt-4">
+                    <img src="{{asset($primary->sec2_img)}}"  width="66%" alt="" class="w-100 rounded-3">
                 </div>
+                </div>
+                
                 <div class="col-12 col-md-12 col-lg-6 mt-4">
                     <h3 class="pb-3 lh-lg">{!!$primary->sec3_head!!}</h3>
                     <p class="pb-3 lh-lg m-0 Open_Sans_font">
                         {!!$primary->sec3_p!!}
                     </p>
+                    
                 </div>
+                
             </div>
         </div>
     </div>

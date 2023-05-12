@@ -1,9 +1,10 @@
 @extends('layouts.app')
 @section('content')
 <div class="primary_page">
-<div class="w-100 z-1">
-    <img class="w-100" src="assets/images/Assets.png" alt="">
-</div>
+
+<div class="w-100 z-n1">
+        <img class="w-100" src="assets/images/Asset.png" alt="">
+    </div>
 
 <div class="container pb-5">
     <div class="row flex-column-reverse flex-md-column-reverse flex-lg-row-reverse flex-xl-row-reverse flex-xxl-row-reverse pt-5">

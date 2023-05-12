@@ -2,6 +2,9 @@
 @section('content')
 
 
+ <div class="w-100 z-n1">
+        <img class="w-100" src="assets/images/Asset.png" alt="">
+    </div>
 
 
 <br>
@@ -92,5 +95,5 @@
     </embed>
 </div>
 
->>>>>>> 5b5706c0a07b3ea87e58ea74741d3139ad4d6616
+
 @endsection

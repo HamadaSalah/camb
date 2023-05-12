@@ -26,24 +26,28 @@
                     </div>
                     <div class="col-12 col-md-6 col-lg-3">
                     </div>
-                    <div class="col-12 col-md-12 col-lg-4">
+                   
+                   <div class="col-12 col-md-12 col-lg-4">
                         <img src="{!!asset($welcome->img)!!}" alt=""
-                             class="img-fluid rounded-3 mt-4">
+                             class="img-fluid rounded-3 mt-4"> 
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
+    
+<div class="w-100 ">
+        <img class="w-100" src="assets/images/assets9.png" alt="">
+    </div>
     <div class="container mb-5">
         <div class="row align-items-center flex-column-reverse flex-md-column-reverse flex-lg-row flex-xl-row flex-xxl-row mt-5">
             <div class="col-12 col-md-12 col-lg-6 mt-4">
                 <img src="{!!asset($welcome->his_img)!!}" alt="" class="img-fluid rounded-3">
             </div>
             <div class="col-12 col-md-12 col-lg-6 mt-4 historydiv">
-                <h3 class="pb-3">Some of our</h3>
+                <h3 class="pb-3">CHS</h3>
                 <h2 class="pb-2 first_color text-uppercase">
-                    history
+                    History
                 </h2>
                 <p class="pb-3 lh-lg m-0">
                     {!!$welcome->his_desc!!}
@@ -71,7 +75,7 @@
                 <div class="col-12 col-md-12 col-lg-6 mt-4 missiondiv">
                     <h3 class="pb-3">Our</h3>
                     <h2 class="pb-4 first_color text-uppercase">
-                         Statement mission
+                         Mission Statement 
                     </h2>
                     <p class="pb-3 lh-lg m-0">
                         {!!$welcome->mis_desc!!}
@@ -89,7 +93,7 @@
             <div class="col-12 col-md-12 col-lg-6 mt-4 visiondiv">
                 <h3 class="pb-3">Our</h3>
                 <h2 class="pb-4 first_color text-uppercase">
-                   Statement vision
+                  Vision Statement 
                 </h2>
                 <p class="pb-3 lh-lg m-0">
                     {!!$welcome->vis_desc!!}

@@ -1,13 +1,18 @@
 @extends('layouts.app')
 @section('content')
 <div class="MYP_page">
+    <div class="w-100 z-n1">
+        <img class="w-100" src="assets/images/Asset.png" alt="">
+    </div>
     <div class="w-100 z-1">
+        
         <img class="w-100" src="assets/images/Assets6.png" alt="">
     </div>
 
     <div class="second_color_bg margin-negative pb-5">
         <div class="container">
             <div class="row justify-content-end">
+                <br>
                 <div class="col-12 col-md-6 col-lg-3">
                     {{-- <img src="assets/images/IBDP.png" alt="" class="img-fluid rounded-3"> --}}
                 </div>

@@ -13,7 +13,7 @@
                         <div class="text-container padding-start ps-0 ps-md-5 ps-lg-5 ps-xl-5 ps-xxl-5 py-5 text-center text-md-start text-lg-start rechp">
                             <div class="row">
                                 <div class="col-md-9">
-                                    <h2 class="text-capitalize fw-bold pb-4">reach us</h2>
+                                    <h2 class="text-capitalize fw-bold pb-4"></h2>
                                     <p class="ps-2 pe-2 pe-md-5 pe-lg-5 Open_Sans_font text-center text-md-start text-lg-start">
                                         {!!$reachus->head!!}
                                     </p>
@@ -45,8 +45,10 @@
                 <div class=" ">
                     <div class="px-3 py-4 w-content-75 white_bg rounded-3 mt-5 addresses">
                         <div class="text-container padding-start ps-0 ps-md-5 ps-lg-5 ps-xl-5 ps-xxl-5 text-center text-md-start text-lg-start">
-                            <h2 class="text-capitalize mb-3">CALL US , VISIT US, EMIL US</h2>
-                            <a class="Open_Sans_font pb-1"  href="mailto:{!!$reachus->email!!}"><p
+                            <h2 class="text-capitalize mb-3 "style="text-align:center;">REACH US</h2>
+                           
+                           
+                           <!-- <a class="Open_Sans_font pb-1"  href="mailto:{!!$reachus->email!!}"><p
                                     class="ps-2 w-content-50 Open_Sans_font text-center text-md-start text-lg-start m-0">
                                 {!!$reachus->email!!}</p></a>
                             <p class="ps-2 w-content-50 m-0 pb-1 Open_Sans_font text-center text-md-start text-lg-start">
@@ -57,8 +59,13 @@
                             </p>
                             <p class="ps-2 w-content-50 m-0 pb-1 Open_Sans_font text-center text-md-start text-lg-start">
                                 {!!$reachus->phone2!!}
-                            </p>
-                        
+                            </p>  -->
+                         <div >
+                <img src="assets/images/rechup.jpg" alt="" class="h-100 rounded-3" style =" display: block;
+  margin-left: 20%;
+  margin-right: auto;
+  width: 60%;">
+            </div>
                         </div>
                         
                    
@@ -98,7 +105,7 @@
                     </h2>
                     <p class="pb-3 lh-lg m-0 rehus">
                         It is the mission of the Admission Committee to
-                        recruit, inform and admit new, qualified students
+                        recruit, inform and admit new, qualified students.
                     </p>
                     <form class="Open_Sans_font" method="POST" action="{!!route('emailToUs')!!}">
                         @csrf

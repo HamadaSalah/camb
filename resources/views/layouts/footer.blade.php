@@ -52,7 +52,7 @@
                         <span>|</span>
                         <li class="px-3"><a class="text-white" href="{{route('polices')}}">policies</a></li>
                         <span>|</span>
-                        <li class="px-3"><a class="text-white" href="{{route('unver_cons')}}"> counselling 
+                        <li class="px-3"><a class="text-white" href="{{route('unver_cons')}}"> counseling 
  </a></li>
                     </ul>
                 </div>

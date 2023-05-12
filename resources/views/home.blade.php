@@ -3,7 +3,9 @@
 @section('content')
 
 <div class="FirstCarou">
+    
     <div id="carouselExample" class="carousel slide">
+       
         <div class="carousel-inner">
             @foreach ($sliders as $key =>  $slider )
                 <div class="carousel-item <?php if($key==0) echo 'active'; ?> ">
@@ -21,7 +23,7 @@
                                 </div>
                             </div>
                             <div class="col-12 col-md-6 col-lg-6 ">
-                                <img class="w-100 f_slider_img" src="{{asset($slider->img)}}" alt="">
+                           <!--     <img class="w-100 f_slider_img" src="{{asset($slider->img)}}" alt=""> -->
                             </div>
                         </div>
         
@@ -163,7 +165,7 @@
       color: #ea144c
     } 
     .my-Event {
-      color: #f3761c
+      color: #ede224
     }
     .my-Metting {
       color: #2386d5

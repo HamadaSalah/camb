@@ -25,8 +25,8 @@
                     <div class="col-12 col-md-6 col-lg-4">
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
-                        <img src="{{asset($police->head_img)}}" alt=""
-                             class="img-fluid rounded-3 mt-4">
+                   <!--     <img src="{{asset($police->head_img)}}" alt=""
+                             class="img-fluid rounded-3 mt-4"> -->
                     </div>
                 </div>
             </div>
@@ -61,7 +61,10 @@
     <div class="container mb-2 py-5">
         <div class="row flex-column-reverse flex-md-column-reverse flex-lg-row flex-xl-row flex-xxl-row">
             <div class="col-12 col-md-12 col-lg-6 mt-4 misimg">
-                <img src="{{asset($police->third_p_img)}}" alt="" class="h-100 rounded-3">
+                <img src="{{asset($police->third_p_img)}}" alt="" class="h-100 rounded-3" style =" display: block;
+  margin-left: 56%;
+  margin-right: auto;
+  width: 100%;">
             </div>
            
         </div>
@@ -69,13 +72,14 @@
 
 
 
-   
-
-    <div class="container mb-5">
-        <div class="row flex-column-reverse flex-md-column-reverse flex-lg-row-reverse flex-xl-row-reverse flex-xxl-row-reverse">
-           <div class="w-100 ">
+   <div class="w-100 ">
         <img class="w-100" src="assets/images/assets9.png" alt="">
     </div>
+
+    <div class="container mb-5">
+        
+        <div class="row flex-column-reverse flex-md-column-reverse flex-lg-row-reverse flex-xl-row-reverse flex-xxl-row-reverse">
+           
             <div class="col-12 mt-4">
                 <h1 class="pb-4 m-0">To Parents</h1>
 

@@ -1,6 +1,10 @@
 @extends('layouts.app')
 @section('content')
 <div class="CAS_page">
+    
+    <div class="w-100 z-n1">
+        <img class="w-100" src="assets/images/Asset.png" alt="">
+    </div>
 
     <div class="row max-h">
         <div class="col-12 position-relative">
@@ -188,9 +192,9 @@
                 <p class="pb-2 lh-lg m-0 Open_Sans_font fw-semibold">
                     {!! $cas->sec8_p !!}
                 </p>
-            </div>
+            </div> <br> <br>
             <div class="d-flex justify-content-end me-5 mt-5">
-                <a class="fs-7 py-1 px-4 first_color Open_Sans_font fw-bold text-capitalize rounded-2 hover_btn _borders " href="https://test.cambridge.edu.jo/tuition-fees">APPLY NOW</a>
+               <br> <a class="fs-7 py-1 px-4 first_color Open_Sans_font fw-bold text-capitalize rounded-2 hover_btn _borders " href="https://test.cambridge.edu.jo/tuition-fees">APPLY NOW</a>
             </div>
         </div>
     </div>

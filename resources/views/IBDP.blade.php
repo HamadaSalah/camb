@@ -1,6 +1,10 @@
 @extends('layouts.app')
 @section('content')
 <div class="IBDP_page">
+    
+    <div class="w-100 z-n1">
+        <img class="w-100" src="assets/images/Asset.png" alt="">
+    </div>
     <div class="w-100 z-n1">
         <img class="w-100" src="assets/images/Assets.png" alt="">
     </div>
@@ -61,6 +65,7 @@
                         education available. As a result, students who graduate with IB credentials have the
                         choice to enter Jordanian universities or most universities aboard.
                     </p>
+                    <br><br>
                     <div class="d-flex justify-content-end me-5 mt-5">
                         <a class="fs-7 py-1 px-4 first_color Open_Sans_font fw-bold text-capitalize rounded-2 hover_btn _borders "
                            href="https://test.cambridge.edu.jo/unver-cons">UNIVERSITY COUNSELLING</a>

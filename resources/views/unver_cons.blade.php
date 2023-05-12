@@ -1,10 +1,16 @@
 @extends('layouts.app')
 @section('content')
 
+
+ <div class="w-100 z-n1">
+        <img class="w-100" src="assets/images/Asset.png" alt="">
+    </div>
 <div class="container">
+    
+   
     <div class="row">
         <div class="unver">
-            <h1 class="text-center mt-3"> Univercity Consulting</h1>
+            <h1 class="text-center mt-3"> University Counseling</h1>
             
             
             

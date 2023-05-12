@@ -121,7 +121,7 @@ footer .fa {
     font-size: 21px;font-family: 'Open Sans', sans-serif;
 }
 .f_slider h1, .f_slider h5, .f_slider p {
-    color: #fff!important;
+    color: #1f2935!important;
 }
 .mypp {
     width: 100%;
@@ -155,7 +155,7 @@ footer .fa {
     background: transparent;
     border: 0;
      font-size: 40px;
-    background: -webkit-linear-gradient(#b11e24, #fff);
+    background: -webkit-linear-gradient(#1f2935, #1f2935);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   
@@ -176,9 +176,9 @@ footer .fa {
     background-size: cover;
  }
  .FirstCarou .carousel.slide {
-    background-color: rgba(0, 0, 0, 0.7);
-    padding-top: 220px;
-    height: 900px;
+   background-color: rgb(237 232 232 / 0%);
+    padding-top: 135px;
+    height: 628px;
 
  }
 .fc .fc-daygrid-day-top {
@@ -213,11 +213,10 @@ footer .fa {
  }
 .myynavv {
     position: absolute!important;
-    background: none!important;
     width: 100%;
 }
 .myynavv ul > li > a {
-    color: #fff;
+    color: #1f2935;
 }
 
 .unver {
